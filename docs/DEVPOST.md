@@ -33,7 +33,7 @@ All data is **fictional** (Riverside Support Program fixture). Dependency edges 
 
 ## Repository
 
-*(Add private GitHub URL — grant Devpost reviewers access.)*
+https://github.com/shahaman098/handover-amazon-2026 (private — grant Devpost reviewers access)
 
 ## Tool feedback
 
