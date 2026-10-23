@@ -1,0 +1,130 @@
+{
+  "case_id": "riverside-support-2026",
+  "title": "Riverside Support Application",
+  "program_threshold": 2500,
+  "documents": [
+    {
+      "id": "doc_id",
+      "title": "Identity verification",
+      "version": 1,
+      "file": "doc_id_verification.md",
+      "role": "identity"
+    },
+    {
+      "id": "doc_payslip_aug",
+      "title": "Payslip August 2026",
+      "version": 1,
+      "file": "doc_payslip_august_2026.md",
+      "role": "payslip",
+      "month": "august"
+    },
+    {
+      "id": "doc_payslip_sep",
+      "title": "Payslip September 2026",
+      "version": 1,
+      "file": "doc_payslip_september_2026.md",
+      "role": "payslip",
+      "month": "september"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "assert_identity",
+      "key": "applicant_name",
+      "value": "Jordan Ellis",
+      "document_id": "doc_id",
+      "coverage": "known"
+    },
+    {
+      "id": "assert_income_aug",
+      "key": "monthly_income",
+      "value": "2100",
+      "document_id": "doc_payslip_aug",
+      "coverage": "known",
+      "active_for_key": "monthly_income"
+    },
+    {
+      "id": "assert_income_sep",
+      "key": "monthly_income",
+      "value": "2450",
+      "document_id": "doc_payslip_sep",
+      "coverage": "known"
+    },
+    {
+      "id": "assert_residency_a",
+      "key": "residency_months",
+      "value": "14",
+      "document_id": "doc_id",
+      "coverage": "known",
+      "conflict_group": "residency"
+    },
+    {
+      "id": "assert_residency_b",
+      "key": "residency_months",
+      "value": "11",
+      "document_id": "doc_payslip_aug",
+      "coverage": "known",
+      "conflict_group": "residency"
+    },
+    {
+      "id": "assert_household_note",
+      "key": "household_size",
+      "value": "unknown",
+      "document_id": "doc_payslip_sep",
+      "coverage": "unknown"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule_threshold",
+      "type": "threshold",
+      "key": "program_income_cap",
+      "value": "2500"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "A1",
+      "title": "Reported monthly income",
+      "depends_on": ["assert_income_aug"],
+      "compute": "income_from_assertion"
+    },
+    {
+      "id": "A2",
+      "title": "Income within program threshold?",
+      "depends_on": ["A1", "rule_threshold"],
+      "compute": "threshold_check"
+    },
+    {
+      "id": "A3",
+      "title": "Household size stated?",
+      "depends_on": ["assert_household_note"],
+      "compute": "unknown_coverage"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "chk_identity",
+      "label": "Identity evidence on file",
+      "assertion_id": "assert_identity"
+    },
+    {
+      "id": "chk_income",
+      "label": "Income evidence current",
+      "assertion_id": "assert_income_aug"
+    },
+    {
+      "id": "chk_household",
+      "label": "Household composition documented",
+      "assertion_id": "assert_household_note",
+      "blocks_ready": true
+    }
+  ],
+  "initial_active_income_assertion": "assert_income_aug",
+  "correction_map": {
+    "from_assertion": "assert_income_aug",
+    "to_assertion": "assert_income_sep",
+    "from_document": "doc_payslip_aug",
+    "to_document": "doc_payslip_sep"
+  }
+}

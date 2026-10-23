@@ -1,0 +1,15 @@
+{
+  "description": "Independent expectations after confirming payslip correction (August -> September income assertion).",
+  "after_payslip_correction": {
+    "affected_assessment_ids": ["A1", "A2"],
+    "unchanged_assertion_ids": ["assert_identity"],
+    "active_income_assertion_id": "assert_income_sep",
+    "A1_value": "2450",
+    "A2_value": "yes",
+    "A3_status": "unresolved",
+    "ready_to_export": false,
+    "unresolved_conflicts": ["residency"]
+  },
+  "identity_assertion_id": "assert_identity",
+  "income_assertion_ids": ["assert_income_aug", "assert_income_sep"]
+}
