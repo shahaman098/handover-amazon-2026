@@ -1,0 +1,31 @@
+{
+  "high_collision": [
+    "Organizer-labelled obvious work, rather than measured saturation: basic streaming interfaces, simple video players, and basic remote-controlled games.",
+    "Organizer-labelled obvious work: single-turn Q&A bots and basic MCP wrappers around existing APIs.",
+    "Organizer-labelled obvious work: wearable notification relays and basic wearable-to-phone logging.",
+    "Organizer-labelled obvious work: basic Ring motion alerts and doorbell live views.",
+    "Organizer-labelled obvious work: single Bedrock text-generation calls or storage-only AWS use.",
+    "Organizer-labelled low-substance open-source work: typo fixes, formatting, and README-only changes."
+  ],
+  "medium_collision": [
+    "Recent similar title: awesome-submitlist",
+    "Recent similar title: BIMRover",
+    "Recent similar title: overhacked",
+    "Recent similar title: DhakaMove",
+    "Recent similar title: CampusNow",
+    "Recent similar title: GoalGate-Jamhacks10",
+    "Recent similar title: dataframe",
+    "Recent similar title: calhacks2025",
+    "Recent similar title: calhacks",
+    "Recent similar title: stud-io-nsbehacks",
+    "Recent similar title: Focusaurus"
+  ],
+  "potentially_underexplored": [],
+  "do_not_build": [
+    "Nonfunctional concepts or demonstrations that fail the selected track's platform and technology requirements.",
+    "Bee submissions supported only by synthetic data or README mentions without actual Bee-data interaction.",
+    "Alexa+ plans dependent on obtaining unavailable gated partner tooling.",
+    "README-only claims of required runtime integrations.",
+    "Submissions dependent on newly obtaining exhausted promotional AWS credits."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "manual_selection": "mut-r1-07-evidence-handoff-ledger",
+  "reason": "Five of six blind judge roles and all five pairwise comparisons preferred this concept. The automated post-red-team Fire TV switch was conditional on a proven TV runtime; that condition is unmet. This is a human recommendation, not the automatic final primary.",
+  "original_red_team": {
+    "primary_id": "mut-r1-07-evidence-handoff-ledger",
+    "fatal_flaws": [
+      "Structural twin: document review with an audit log, optimistic concurrency and dependency invalidation. The supplied design demonstrates neither causal inference nor counterfactual optimization; those labels overstate its differentiation.",
+      "The central demand is unvalidated: fictional documents and rules can establish transaction correctness, but cannot establish that applicants and helpers need this handoff workflow or understand its receipt.",
+      "Dependency completeness is the critical unsupported assumption. Correctly traversing a manually authored graph does not prove that extraction captured every dependency; omitted edges can leave stale assessments apparently valid.",
+      "Two simulated roles establish attributed UI actions, not independently verified applicant consent. A confirmation event cannot support stronger identity or authorization claims.",
+      "The conversational layer is readily replaceable by a generic assistant calling ledger tools. The defensible core is deterministic record management, and the proposal has not shown why conversation materially improves it.",
+      "The demo oracle can share the fixture author's omissions. Persistence and stale-write rejection demonstrate useful engineering, but a scripted graph does not establish trustworthy reconciliation of unfamiliar documents.",
+      "Sponsor relevance is weak even under the supplied simulation allowance: removing Alexa+ branding leaves the same application. Repeated claims that unrelated conditional platforms are materially required contradict the simulation-only scope and undermine the automated gate passes.",
+      "External dependency exposure is relatively low with bundled fixtures, but the actual conversational runtime and offline fallback are unspecified. A live model failure could still break reference resolution and confirmation."
+    ],
+    "survive_if": [
+      "Position it narrowly as a provenance transaction prototype; remove causal, policy-accuracy, authenticated-consent and validated-demand implications.",
+      "Show a concrete applicant/helper walkthrough establishing why a version history and correction message fail to resolve the handoff.",
+      "Let judges introduce an unseen correction into a branching dependency graph; independently verify affected and unaffected assessments, unresolved conflicts, stale writes and persistence.",
+      "Expose dependency construction and completeness limits. Block assessments whose supporting dependencies are unknown rather than presenting successful graph traversal as semantic correctness.",
+      "Bind confirmation to the exact proposed replacement, source version and actor session; require renewed confirmation after any proposal change.",
+      "Demonstrate unscripted conversational source inspection and ambiguous-reference handling, with deterministic mutation guards and a rehearsed runtime fallback.",
+      "Remove irrelevant platform assertions and distinguish supplied qualification assumptions from demonstrated implementation evidence."
+    ],
+    "prefer_backup_instead": true,
+    "backup_reason": "Rep Trace offers a clearer observable loop: actual remote events and timers directly control progression and reproduce explanations, with a material TV interaction role. Prefer it only after demonstrating the accepted Fire TV runtime and remote navigation. Its own differentiation must exceed a timer/checklist, and manual confirmations must remain explicitly distinct from observed exercise performance.",
+    "severity_acceptance": true
+  },
+  "required_scope_cuts": [
+    "one synthetic case and inspectable authored dependencies",
+    "prepared document facts, no OCR",
+    "no real eligibility conclusions",
+    "simulated roles do not establish verified identity",
+    "exact-proposal and revision-bound confirmation",
+    "real server-enforced invalidation, transactions, persistence and stale-write rejection",
+    "unknown dependency coverage blocks completion"
+  ],
+  "runtime_gate": "Verify one conversational runtime and one complete server mutation path during the first hour. Existing Codex CLI authentication worked for the engine; its app integration and latency still need testing. No API key, model service, AWS access, speech recognition or hardware is assumed. A bounded typed-conversation simulation is a declared fallback accepted by the event, not a claim of unscripted AI or live Alexa+ integration.",
+  "judge_proof": "Allow an unseen correction within the declared case schema. Independently check affected and unaffected outputs. Do not demonstrate only a prearranged animation.",
+  "fallback_candidate": "Departure Interlock if the first-hour transaction/protocol/runtime proof fails; it was preferred by the demo-risk judge and had low delivery risk.",
+  "do_not_add": [
+    "OCR",
+    "real benefits policy coverage",
+    "multi-tenant login",
+    "external app actions",
+    "real Alexa+ deployment",
+    "AWS or open-source mini-challenge work before the main demo works"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "created_at": "2026-10-22T20:21:40+00:00",
+  "updated_at": "2026-10-22T20:34:11+00:00",
+  "pid": 37153,
+  "provider": "codex",
+  "search_profile": "balanced",
+  "log_file": "/Users/efi/Documents/ChatGPT/Amazon hackathon/engine-runs/corrected/2026-10-22-competition-brief-input-2/run.log",
+  "counts": {
+    "requested": 8,
+    "candidates": 1,
+    "finalists": 3
+  },
+  "output_ids": [
+    "concept-026",
+    "mut-r1-07-evidence-handoff-ledger",
+    "concept-012"
+  ]
+}

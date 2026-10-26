@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "fire: accepted with its applicable qualifying technology",
+    "fire: rejected when material technology roles are absent",
+    "alexa: accepted with its applicable qualifying technology",
+    "alexa: rejected when material technology roles are absent",
+    "Missing submission/artifact plans still rejected",
+    "Unknown primary track fails closed",
+    "Unconditional technology remains required; Bee requirement stays scoped to Bee"
+  ],
+  "candidate_gate_counts": {
+    "pass": 47,
+    "fail": 1
+  },
+  "source_run": "/Users/efi/Documents/ChatGPT/Amazon hackathon/engine-runs/2026-10-22-competition-brief-input",
+  "engine_source_modified": false,
+  "reason": "Original gate incorrectly made every track technology universal; corrected event scope.",
+  "score_criteria": [
+    "Design",
+    "Potential Impact",
+    "Quality of the Idea",
+    "Tech Implementation"
+  ],
+  "remaining_provider": "live codex"
+}

@@ -1,0 +1,114 @@
+{
+  "competition": "Build, Ship, Shape: Amazon Developer Hackathon",
+  "winning_archetypes": [
+    "Time-constrained frontline users receive a specific next action before a consequential decision window closes.",
+    "Operators detect a meaningful exception in noisy activity and see which intervention it requires.",
+    "Educators and coaches identify a missed step from process evidence and deliver targeted help.",
+    "Reviewers uncover consequential changes across versions with inspectable supporting evidence.",
+    "Households and coordinators adapt plans to changing conditions while satisfying explicit constraints.",
+    "Developers locate a concrete failure or divergence and understand its downstream effect."
+  ],
+  "mechanism_families": [
+    "Deterministic and temporal rules turn contextual inputs into explainable decisions and deadlines; supported by wn-001, wn-003 and wn-015.",
+    "Constraint optimization and dynamic routing adapt plans to resource limits and changing events; supported by wn-008 and wn-018.",
+    "Streaming changepoint and anomaly detection isolate actionable deviations; supported by wn-005 and wn-027.",
+    "Trace capture, classification and replay expose skipped steps and recurring friction; supported by wn-006.",
+    "Time-aligned visual comparison, semantic diff and AST-aware diff expose consequential changes; supported by wn-007, wn-012 and wn-021.",
+    "Context linking, requirement extraction and gap planning connect evidence to missing actions; supported by wn-013, wn-017 and wn-019.",
+    "Low-bandwidth interaction, offline synchronization and prioritized relays preserve utility under connectivity constraints; supported by wn-004 and wn-009.",
+    "Metadata-aware attribution and causal analysis explain why outcomes diverge; supported by wn-010 and wn-011.",
+    "Localized sensor fusion and stakeholder-aware clustering convert scattered observations into situated context; supported by wn-016 and wn-025."
+  ],
+  "demo_patterns": [
+    "Complete one live input-to-outcome loop: show the user's input, the mechanism operating and the resulting actionable output.",
+    "Compare the same case before and after intervention using an observable outcome rather than an unsupported benefit claim.",
+    "Inject a controlled anomaly and show detection, explanation and response; label simulated inputs clearly.",
+    "Change one constraint mid-demo and show the plan adapting while preserving its stated requirements.",
+    "Reveal a missed step or consequential change through replay, highlighting or a side-by-side comparison.",
+    "Stress a relevant constraint such as lost connectivity and demonstrate the remaining usable workflow.",
+    "For this brief, fit one proof loop within three minutes and show it functioning on the selected track's accepted platform; Bee demonstrations must use actual Bee-origin data."
+  ],
+  "anti_patterns": [
+    "Basic Fire TV players, streaming catalogs or remote-controlled games without a specific stakeholder outcome and a substantive mechanism.",
+    "Single-turn Alexa+ Q&A or thin API wrappers that stop before completing a useful workflow.",
+    "Bee notification relays or passive logs without evidence-linked decisions or follow-through.",
+    "Ring motion alerts or live views without contextual interpretation or an actionable workflow.",
+    "A single text-generation call or storage-only AWS integration presented as the main technical contribution.",
+    "Typo, formatting or README-only contributions presented as substantive Open Source work.",
+    "Transplanting a supplied winner's domain and workflow verbatim instead of adapting its underlying pattern.",
+    "Overbuilding cross-device orchestration or advanced models beyond the solo developer's approximately ten-hour budget.",
+    "Treating these differentiation risks as measured submission saturation; the supplied brief does not establish actual category frequency."
+  ],
+  "track_hints": [
+    {
+      "track": "Fire TV",
+      "mechanisms": [
+        "Adapt trace-driven coaching to a focused learning or fitness interaction with visible progress and targeted correction.",
+        "Use constraint-based planning for a specific shared viewing or family activity decision.",
+        "Prove the core interaction through remote navigation and a readable large-screen outcome on Fire OS or Vega OS."
+      ]
+    },
+    {
+      "track": "Alexa+",
+      "mechanisms": [
+        "Combine contextual requirement extraction with deterministic rules to produce an explainable next action.",
+        "Use constraint-based planning with conversational corrections and visible plan updates.",
+        "Demonstrate a complete workflow through an accepted Agent Skill, qualifying self-hosted MCP server or working simulation; select one narrow loop."
+      ]
+    },
+    {
+      "track": "Bee (Wearable AI)",
+      "mechanisms": [
+        "Link actual Bee-recorded context to missing steps, commitments or targeted learning actions.",
+        "Use longitudinal comparison and evidence-linked replay to reveal a recurring productivity obstacle.",
+        "Proceed only with confirmed access to actual Bee-origin data through Bee CLI, MCP or Agent Skills."
+      ]
+    },
+    {
+      "track": "Ring",
+      "mechanisms": [
+        "Combine event sequences with temporal rules to identify a contextual exception requiring attention.",
+        "Use change comparison to distinguish a meaningful progression from an isolated alert where documented interfaces support the necessary inputs.",
+        "Show event-to-decision-to-response behavior through a documented Ring simulator or actual device."
+      ]
+    },
+    {
+      "track": "AWS Builder — optional mini challenge alongside a primary track",
+      "mechanisms": [
+        "Support the primary workflow with a documented qualifying integration for event processing, contextual retrieval or anomaly analysis.",
+        "Alternatively document qualifying Kiro Crew development use without adding an unnecessary AWS runtime dependency.",
+        "Explain each qualifying tool's contribution and observed friction in product feedback."
+      ]
+    },
+    {
+      "track": "Open Source — optional mini challenge alongside a primary track",
+      "mechanisms": [
+        "Extract a reusable rules evaluator, comparison utility or trace-replay component as an additional licensed contribution.",
+        "Provide a runnable example demonstrating the contribution's behavior and practical value.",
+        "Keep contribution scope small enough to complete alongside the primary-track proof loop."
+      ]
+    }
+  ],
+  "source_winner_ids": [
+    "wn-001",
+    "wn-003",
+    "wn-004",
+    "wn-005",
+    "wn-006",
+    "wn-007",
+    "wn-008",
+    "wn-009",
+    "wn-010",
+    "wn-011",
+    "wn-012",
+    "wn-013",
+    "wn-015",
+    "wn-016",
+    "wn-017",
+    "wn-018",
+    "wn-019",
+    "wn-021",
+    "wn-025",
+    "wn-027"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "inspiration_min": 0.3,
+  "training_cutoff": null,
+  "clone_dimension_min": 0.72,
+  "corpus_size": 27,
+  "candidates": [
+    {
+      "candidate_id": "mut-r2-08-compare-before-resuming",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-019",
+          "project_name": "LedgerLearn",
+          "source_url": "https://devpost.com/software/ledgerlearn",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.06666666666666667
+          },
+          "aggregate_score": 0.0222,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-006",
+          "project_name": "TeachTrace",
+          "source_url": "https://devpost.com/software/teachtrace",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.043478260869565216,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.0145,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-008",
+          "project_name": "PayRoute",
+          "source_url": "https://devpost.com/software/payroute",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.043478260869565216,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.0145,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.0222,
+      "clone_guard": false,
+      "flagged": false
+    },
+    {
+      "candidate_id": "mut-r1-07-evidence-handoff-ledger",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-022",
+          "project_name": "AidMatch",
+          "source_url": "https://devpost.com/software/aidmatch",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.0625
+          },
+          "aggregate_score": 0.0208,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-001",
+          "project_name": "MediChain",
+          "source_url": "https://devpost.com/software/medichain-eth-paris",
+          "dimensions": {
+            "user_alignment": 0.058823529411764705,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.0196,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-006",
+          "project_name": "TeachTrace",
+          "source_url": "https://devpost.com/software/teachtrace",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.041666666666666664,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.0139,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.0208,
+      "clone_guard": false,
+      "flagged": false
+    },
+    {
+      "candidate_id": "concept-012",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-019",
+          "project_name": "LedgerLearn",
+          "source_url": "https://devpost.com/software/ledgerlearn",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.045454545454545456,
+            "mechanism_alignment": 0.10526315789473684
+          },
+          "aggregate_score": 0.0502,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-009",
+          "project_name": "SignalAid",
+          "source_url": "https://devpost.com/software/signalaide",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.041666666666666664,
+            "mechanism_alignment": 0.05263157894736842
+          },
+          "aggregate_score": 0.0314,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-004",
+          "project_name": "FarmLoop",
+          "source_url": "https://devpost.com/software/farmloop",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.04,
+            "mechanism_alignment": 0.05263157894736842
+          },
+          "aggregate_score": 0.0309,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.0502,
+      "clone_guard": false,
+      "flagged": false
+    },
+    {
+      "candidate_id": "concept-026",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-006",
+          "project_name": "TeachTrace",
+          "source_url": "https://devpost.com/software/teachtrace",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.17647058823529413,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.0588,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-003",
+          "project_name": "CourtScribe",
+          "source_url": "https://devpost.com/software/courtscribe",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.09090909090909091
+          },
+          "aggregate_score": 0.0303,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-015",
+          "project_name": "VoteVerify",
+          "source_url": "https://devpost.com/software/voteverify",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.047619047619047616
+          },
+          "aggregate_score": 0.0159,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.0588,
+      "clone_guard": false,
+      "flagged": false
+    },
+    {
+      "candidate_id": "mut-r1-04-screening-replay-bench",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-019",
+          "project_name": "LedgerLearn",
+          "source_url": "https://devpost.com/software/ledgerlearn",
+          "dimensions": {
+            "user_alignment": 0.1111111111111111,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.0
+          },
+          "aggregate_score": 0.037,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-009",
+          "project_name": "SignalAid",
+          "source_url": "https://devpost.com/software/signalaide",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.043478260869565216,
+            "mechanism_alignment": 0.045454545454545456
+          },
+          "aggregate_score": 0.0296,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-012",
+          "project_name": "DocProof",
+          "source_url": "https://devpost.com/software/docproof",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.047619047619047616
+          },
+          "aggregate_score": 0.0159,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.037,
+      "clone_guard": false,
+      "flagged": false
+    },
+    {
+      "candidate_id": "mut-r2-03-departure-interlock",
+      "nearest_matches": [
+        {
+          "winner_id": "wn-009",
+          "project_name": "SignalAid",
+          "source_url": "https://devpost.com/software/signalaide",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.058823529411764705,
+            "mechanism_alignment": 0.038461538461538464
+          },
+          "aggregate_score": 0.0324,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-026",
+          "project_name": "HackForge Demo Winner",
+          "source_url": "https://devpost.com/software/hackforge-demo-winner",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.08
+          },
+          "aggregate_score": 0.0267,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        },
+        {
+          "winner_id": "wn-012",
+          "project_name": "DocProof",
+          "source_url": "https://devpost.com/software/docproof",
+          "dimensions": {
+            "user_alignment": 0.0,
+            "problem_alignment": 0.0,
+            "mechanism_alignment": 0.04
+          },
+          "aggregate_score": 0.0133,
+          "exceeds_threshold": false,
+          "clone_guard": false
+        }
+      ],
+      "max_aggregate": 0.0324,
+      "clone_guard": false,
+      "flagged": false
+    }
+  ]
+}

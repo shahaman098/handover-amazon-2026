@@ -1,0 +1,43 @@
+[
+  {
+    "name": "What, When, and How: Audio Description as Constrained Global Optimization",
+    "url": "https://arxiv.org/abs/2609.30121",
+    "user": "Blind and low-vision movie audiences",
+    "problem": "Selecting what to describe and when without interfering with dialogue",
+    "mechanism": "LLM-generated alternatives selected and scheduled jointly by mixed integer temporal constraint optimization",
+    "action": "Schedule and compress audio descriptions inside dialogue gaps",
+    "data": "REFRAMED film benchmark; publication 24 September 2026"
+  },
+  {
+    "name": "W3C G8 extended audio description",
+    "url": "https://www.w3.org/WAI/WCAG21/Techniques/general/G8.html",
+    "user": "Blind viewers",
+    "problem": "Natural dialogue gaps too short for essential descriptions",
+    "mechanism": "Pause video and original audio to deliver an extended description",
+    "action": "Temporarily halt playback and resume after narration"
+  },
+  {
+    "name": "Dwell \u2014 Build, Ship, Shape",
+    "url": "https://devpost.com/software/dwell-build-ship-shape",
+    "user": "Households performing interrupted multiday domestic jobs",
+    "problem": "Schedule active work and waiting time around actual availability",
+    "mechanism": "Persistent MCP session, prerequisite graph, calendar/resource critical-path scheduling and replanning",
+    "action": "Mark progress, resume sessions, and recompute completion times"
+  },
+  {
+    "name": "BOLT for Alexa+",
+    "url": "https://devpost.com/software/bolt-for-alexa",
+    "user": "Reviewers of synthetic operational workflows",
+    "problem": "Conflicting evidence and consequential action approval",
+    "mechanism": "Local conversational simulation, explicit permission state machine, approval IDs, decision log",
+    "action": "Review evidence and approve or reject simulated changes"
+  },
+  {
+    "name": "Amazon companion skills for board games",
+    "url": "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/resources/How_to_Build_Alexa_Companion_Skills_for_Board_Games._CB1583784193_.pdf",
+    "user": "People following multistep physical instructions",
+    "problem": "Interrupted tutorials and continuation across Alexa sessions",
+    "mechanism": "Persist tutorial state, repeat the last instruction after an interruption, voice next/back navigation",
+    "action": "Resume the tutorial from the previous instruction"
+  }
+]

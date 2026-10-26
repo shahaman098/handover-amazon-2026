@@ -1,0 +1,263 @@
+{
+  "hackforge_version": "0.5.0",
+  "created_at": "2026-10-22T20:34:11+00:00",
+  "run_dir": "/Users/efi/Documents/ChatGPT/Amazon hackathon/engine-runs/corrected/2026-10-22-competition-brief-input-2",
+  "competition_name": "Build, Ship, Shape: Amazon Developer Hackathon",
+  "dry_run": false,
+  "prompt_versions": {
+    "competition-research/v1": "fcf826efc497bab55253b20f8def3729e0a95121bf52c5ed2b2ff94006ce5889",
+    "contrarian-ideation/v1": "3425e30ddd6ff8c0e4527f7dadc4926f3e4e0fa7f2b84670a243fbc01c3fa687",
+    "opportunity-discovery/v1": "87d5495da8559c8cb37e6da056ec40b485d19fd0c81028524325ce916f6838cc",
+    "mechanism-mining/v1": "df90590950b8f9d05004e406360e54d282725c97ac3d4605b4a66d62af6d322b",
+    "idea-crossing/v1": "f4c185fc0dacca81633b089b3421c903e86c45a616bd4db2707c173ce0e49628",
+    "reflective-mutation/v1": "9637ef29d25e4d56f49ad508299e47c21f6ec58f46198c2f9a4c5911989aebe7",
+    "collision-audit/v1": "8f9aa577c2c9460439c15d32f44425026fe8ba70b61fec838eb7d6b0bf18749e",
+    "feasibility/v1": "fad431e519b543803f3cfb7f9a8a923be3a184ed4bdea7e573ef823bc1270ff1",
+    "blind-judge/v1": "c64c00ee2fae131503c838be9393e18517e2733337d4a72729885370ad2423c8",
+    "red-team/v1": "437c9926ecc707ed584333328cb871d82ed3f7c6768bcafc3db85e9ba368443e",
+    "build-plan/v1": "9c7d440e8fa0a35e9c04abefb98b2e8e77d0a622ed74a814bdcf6890273557f7",
+    "develop/v1": "8b1b03e85e27b5fc6e0b9eb28bc3ee2651884b5be6cccb3dd900682847dc6f3d",
+    "winner-patterns/v1": "ce44424dc09a89d30e0b14e830e74b6d1bff914d993895191bd4ae91030cae85"
+  },
+  "corpora_version": "2026-08-09",
+  "providers": {
+    "dry_run": false,
+    "selection": "codex",
+    "research": "codex",
+    "ideation": [
+      "codex",
+      "codex",
+      "codex",
+      "codex"
+    ],
+    "collision": "codex",
+    "feasibility": "codex",
+    "build_plan": "codex",
+    "develop": null,
+    "judges": "codex",
+    "models": {
+      "research": "codex-default"
+    },
+    "requested_models": {
+      "research": null
+    },
+    "usage": null
+  },
+  "input_sources": [
+    "/Users/efi/Documents/ChatGPT/Amazon hackathon/engine-runs/2026-10-22-competition-brief-input"
+  ],
+  "input_hash": "3eea17dc99f34206e54e0e743ff7b9ed36c0acda53c3d7cf9d9bb2c8dedce202",
+  "stage_timings_seconds": {
+    "competition_research": 0.0010083329980261624,
+    "winner_patterns": 0.0014417909551411867,
+    "divergent_search": 0.037096999993082136,
+    "hard_gates": 0.23696012498112395,
+    "collision": 167.33606479101581,
+    "feasibility": 161.3604794999701,
+    "blind_judge": 262.798319583002,
+    "red_team": 36.516852999979164,
+    "build_plan": 73.40448320802534
+  },
+  "candidate_counts": {
+    "raw": 48,
+    "archive_cells": 48,
+    "collision_shortlist": 12,
+    "judged_finalists": 6,
+    "finalists": 3
+  },
+  "rejections": [
+    {
+      "id": "concept-017",
+      "reason": "gate failure: specific_track_fit"
+    },
+    {
+      "id": "concept-002",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-003",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-004",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-004-5",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-005",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-006",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-007",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-009",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-010",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-011",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-013",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-014",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-015",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-018",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-019",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-021",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-022",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-023",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-024",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-025",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-027",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-028",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-029",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-030",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-031",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-032",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-01-description-patch",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-02-one-step-ahead",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-03-resume-interlock",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-05-description-cache-steward",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-06-routine-contract-review",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r1-08-routine-change-trial",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r2-01-description-patch-desk",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r2-04-screening-regression-lab",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "mut-r2-07-evidence-handoff-ledger",
+      "reason": "outcompeted in quality-diversity/MMR selection"
+    },
+    {
+      "id": "concept-001",
+      "reason": "collision kill: Multiple supplied analogues already cover the audience, dialogue-safe scheduling mechanism and extended-description fallback. Conflict explanations and approval improve inspectability but do not establish a material departure from their combined workflow."
+    },
+    {
+      "id": "mut-r2-06-routine-conflict-desk",
+      "reason": "feasibility kill: Recommend dropping under the stated starting conditions: unverified platform setup, temporal-model correctness, conflict certificates and remote editing create several independent integration risks for one developer with ten build hours. Removing each conflict member proves irreducibility only; minimum cardinality also requires ruling out every smaller subset. Reconsider only if platform execution is immediately established and the model remains extremely small. Placeholder exercise content does not establish exercise safety, which is outside the stated proof."
+    },
+    {
+      "id": "concept-016",
+      "reason": "feasibility kill: More straightforward than the temporal conflict desk, but still a poor commitment while Fire TV readiness is unknown and development starts from scratch. Six cards alone does not bound search adequately if arbitrary start times and idle periods are allowed; define the discrete horizon and omission rules first. Local fixtures satisfy the proposed prototype scope, but do not demonstrate remote attendance or multi-phone ingestion. Reconsider if the platform boots immediately and those additional capabilities stay excluded."
+    },
+    {
+      "id": "mut-r2-05-description-reserve",
+      "reason": "feasibility kill: Recommend dropping this candidate under the stated ten-hour, solo, from-scratch assumption. Platform setup, remote accessibility, media authoring, synchronized playback, and transactional storage create several independent failure surfaces. Enumeration is the easy part. Bundling every alternative inside the installed app does not itself demonstrate reduced physical storage; distinguish active allocation bytes from total installed and staging bytes. Reconsider only after platform deployment and playback are already proven."
+    },
+    {
+      "id": "mut-r2-02-ready-window-routine",
+      "reason": "feasibility kill: Recommend dropping this option under the present unconfirmed platform access and solo time budget; reconsider only after a successful deployment smoke test. The foreground-only restriction reduces background scheduling work but leaves substantial state and playback verification. Generated gate passes establish no execution evidence. Assess as Fire TV only: copied claims assigning roles to every conditional technology contradict the explicit track selection and should be removed. No clinical validation is required for the stated event-based claim."
+    }
+  ],
+  "judgments_path": "blind-judge-results.json",
+  "human_overrides": [],
+  "final_primary_id": "concept-026",
+  "final_backup_id": "mut-r1-07-evidence-handoff-ledger",
+  "competition_result": null,
+  "notes": "Update competition_result and human_overrides after the competition.",
+  "search_profile": "balanced",
+  "target_evaluated_concepts": 48,
+  "final_output_ids": [
+    "concept-026",
+    "mut-r1-07-evidence-handoff-ledger",
+    "concept-012"
+  ],
+  "visual_report": true,
+  "build_plan": true,
+  "develop": false,
+  "optional_stage_call_budget": {
+    "build_plan": 1,
+    "develop": 0
+  },
+  "competition_profile": null,
+  "inspiration_min": null,
+  "training_cutoff": null,
+  "winner_patterns_version": "v1",
+  "inspiration_summary": {
+    "corpus_size": 27,
+    "flagged_finalists": 0,
+    "clone_guard_hits": 0
+  }
+}

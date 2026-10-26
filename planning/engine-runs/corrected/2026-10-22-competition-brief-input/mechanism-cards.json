@@ -1,0 +1,597 @@
+[
+  {
+    "id": "m01",
+    "mechanism_family": "Formal verification",
+    "mechanism": "Temporal invariant checking with minimal counterexample extraction",
+    "origin_domain": "Formal methods and distributed systems",
+    "inputs": [
+      "Timestamped event sequences",
+      "State transition rules",
+      "Temporal invariants",
+      "Event ordering and clock uncertainty bounds"
+    ],
+    "transformation": "Construct a state transition model from observed events, evaluate temporal invariants over admissible event orderings, and minimize violating traces to isolate the smallest reproducible failure sequence.",
+    "outputs": [
+      "Satisfied, violated, or indeterminate verdict per invariant",
+      "Minimal counterexample traces",
+      "Transitions responsible for each violation",
+      "Replayable verification records"
+    ],
+    "constraints": [
+      "Missing events must produce explicit uncertainty rather than assumed correctness.",
+      "Concurrent events require partial ordering or bounded clock uncertainty.",
+      "Verification claims must state the modeled execution horizon.",
+      "Counterexample minimization must preserve the original violation."
+    ]
+  },
+  {
+    "id": "m02",
+    "mechanism_family": "Constraint optimization",
+    "mechanism": "Resource allocation with infeasibility explanations and bounded repair",
+    "origin_domain": "Operations research and scheduling",
+    "inputs": [
+      "Tasks with durations and resource demands",
+      "Resource capacities and availability windows",
+      "Precedence and exclusion constraints",
+      "Objective weights",
+      "Permitted constraint relaxations and their costs"
+    ],
+    "transformation": "Encode allocation choices as a constrained optimization problem, solve for a feasible low-cost assignment, and, when infeasible, identify conflicting constraints and compute the least costly permitted relaxation.",
+    "outputs": [
+      "Feasible allocation and schedule",
+      "Objective value and available optimality bound",
+      "Conflicting constraint sets",
+      "Ranked repair options with quantified costs"
+    ],
+    "constraints": [
+      "Hard constraints cannot be relaxed without explicit permission in the input.",
+      "Solver timeouts must distinguish missing solutions from proven infeasibility.",
+      "Objective terms require compatible normalization or explicit priorities.",
+      "Any reported optimality claim requires a solver certificate or bound."
+    ]
+  },
+  {
+    "id": "m03",
+    "mechanism_family": "Counterfactual simulation",
+    "mechanism": "Paired intervention replay under shared disturbances",
+    "origin_domain": "Causal inference and control engineering",
+    "inputs": [
+      "An executable state transition model",
+      "Initial state estimates",
+      "Baseline and alternative action sequences",
+      "Disturbance distributions or recorded disturbance sequences",
+      "Outcome metrics and operating limits"
+    ],
+    "transformation": "Replay baseline and alternative actions from matched initial states using identical sampled disturbances, measure paired outcome differences, and aggregate results across plausible states and model parameters.",
+    "outputs": [
+      "Estimated outcome changes for each intervention",
+      "Uncertainty intervals",
+      "Operating-limit violation frequencies",
+      "Sensitivity rankings",
+      "Reproducible simulation traces"
+    ],
+    "constraints": [
+      "Causal interpretations depend on the model's intervention assumptions.",
+      "Shared disturbances must remain valid under both action sequences.",
+      "Model uncertainty must be distinguished from sampling uncertainty.",
+      "Unsupported states and interventions must be flagged as extrapolation."
+    ]
+  },
+  {
+    "id": "m04",
+    "mechanism_family": "Provenance and anomaly detection",
+    "mechanism": "Dependency lineage verification with selective invalidation",
+    "origin_domain": "Build systems and data provenance",
+    "inputs": [
+      "Source records and content digests",
+      "Transformation definitions and versions",
+      "Declared input-output dependencies",
+      "Recorded execution metadata",
+      "Expected output properties"
+    ],
+    "transformation": "Represent derivations as a dependency graph, verify content digests and execution lineage, detect missing or inconsistent dependencies, and traverse affected descendants to determine which outputs require invalidation or recomputation.",
+    "outputs": [
+      "Verifiable lineage paths",
+      "Stale or unsupported output flags",
+      "Affected descendant sets",
+      "Dependency-ordered recomputation plans",
+      "Evidence records explaining each anomaly"
+    ],
+    "constraints": [
+      "Content digests establish integrity relative to recorded values, not source truth.",
+      "Undeclared dependencies can invalidate completeness claims.",
+      "Transformation versions and relevant execution parameters must be captured.",
+      "Cycles require explicit iteration semantics or rejection."
+    ]
+  },
+  {
+    "id": "mechanism_04",
+    "mechanism_family": "Runtime verification",
+    "mechanism": "Temporal contract monitoring with minimal violation witnesses",
+    "origin_domain": "Formal methods",
+    "inputs": [
+      "Timestamped event stream",
+      "Temporal invariants and permitted state transitions",
+      "Clock uncertainty and event completeness metadata"
+    ],
+    "transformation": "Compile temporal contracts into monitors, incrementally evaluate incoming events, and extract the smallest event subsequence sufficient to demonstrate each violation. Mark conclusions indeterminate when missing events or clock uncertainty prevent verification.",
+    "outputs": [
+      "Contract satisfaction, violation, or indeterminate verdicts",
+      "Minimal violation traces",
+      "Detection latency and evidence completeness measurements"
+    ],
+    "constraints": [
+      "Contracts must specify event ordering and timeout semantics.",
+      "Missing evidence must not be treated as proof of compliance.",
+      "Witness minimality is relative to the contract and observed trace."
+    ]
+  },
+  {
+    "id": "mechanism_05",
+    "mechanism_family": "Constraint solving",
+    "mechanism": "Minimum-cost repair of inconsistent action plans",
+    "origin_domain": "Operations research and automated planning",
+    "inputs": [
+      "Proposed actions with preconditions and effects",
+      "Resource limits and temporal dependencies",
+      "Hard constraints and weighted preferences",
+      "Costs for removing, replacing, or rescheduling actions"
+    ],
+    "transformation": "Encode action feasibility and dependencies as a constraint system. If the original plan is infeasible, identify a conflicting constraint subset and solve for the least-cost permitted edits that restore feasibility while preserving all hard constraints.",
+    "outputs": [
+      "Feasible repaired plan or infeasibility result",
+      "Explicit action edits and total repair cost",
+      "Conflicting constraint subset",
+      "Optimality certificate or solver gap"
+    ],
+    "constraints": [
+      "Hard constraints cannot be relaxed implicitly.",
+      "Repair costs must be explicit and comparable.",
+      "Optimality claims require a certificate or a reported bound.",
+      "Execution feasibility depends on the accuracy of modeled preconditions and resources."
+    ]
+  },
+  {
+    "id": "mechanism_06",
+    "mechanism_family": "Counterfactual testing",
+    "mechanism": "Paired replay for isolating policy effects",
+    "origin_domain": "Causal inference and discrete-event simulation",
+    "inputs": [
+      "Recorded event sequences",
+      "Baseline and alternative decision policies",
+      "State transition model",
+      "Random seeds and disturbance distributions",
+      "Outcome metrics and failure thresholds"
+    ],
+    "transformation": "Replay each event sequence under both policies from identical initial states using matched exogenous disturbances. Aggregate paired outcome differences, then perturb uncertain model parameters to identify where the apparent policy advantage changes sign or violates a failure threshold.",
+    "outputs": [
+      "Paired outcome differences",
+      "Uncertainty intervals across replay scenarios",
+      "Sensitivity boundaries",
+      "Failure-inducing counterfactual traces"
+    ],
+    "constraints": [
+      "Shared disturbances must represent exogenous factors rather than policy-dependent outcomes.",
+      "Policy-dependent events must be regenerated by the transition model.",
+      "Simulation comparisons do not establish real-world causal effects without validated assumptions.",
+      "Model uncertainty must be distinguished from sampling uncertainty."
+    ]
+  },
+  {
+    "id": "mechanism_07",
+    "mechanism_family": "Provenance verification",
+    "mechanism": "Dependency-aware evidence invalidation",
+    "origin_domain": "Build systems and data lineage",
+    "inputs": [
+      "Claims or derived artifacts",
+      "Versioned source evidence",
+      "Transformation records and dependency edges",
+      "Freshness rules and integrity digests"
+    ],
+    "transformation": "Construct a directed dependency graph linking each result to its source versions and transformation parameters. When evidence changes, expires, or fails integrity checks, propagate invalidation through dependent results and compute the dependency closure requiring recomputation.",
+    "outputs": [
+      "Traceable derivation paths",
+      "Invalidated claims and artifacts",
+      "Recomputation order",
+      "Unresolved dependencies and integrity failures"
+    ],
+    "constraints": [
+      "Every relevant dependency must be recorded for invalidation to be complete.",
+      "Cycles require explicit fixed-point or rejection semantics.",
+      "Integrity digests establish content identity rather than factual truth.",
+      "Freshness policies must specify time references and expiration rules."
+    ]
+  },
+  {
+    "id": "mechanism-08",
+    "mechanism_family": "Runtime verification",
+    "mechanism": "Temporal contract monitoring with minimal violation witnesses",
+    "origin_domain": "Formal methods and distributed systems",
+    "inputs": [
+      "Timestamped event traces",
+      "Temporal rules defining permitted event sequences",
+      "Bounds on clock error and event lateness"
+    ],
+    "transformation": "Translate temporal rules into monitor states, process events using bounded event-time windows, and identify the shortest trace fragment sufficient to demonstrate each violation. Preserve unresolved obligations when available observations cannot establish satisfaction or failure.",
+    "outputs": [
+      "Satisfied, violated, or unresolved verdicts per obligation",
+      "Minimal violation witness traces",
+      "Detection latency and observation coverage measurements"
+    ],
+    "constraints": [
+      "Absence of an event establishes a violation only after its deadline and allowed lateness expire.",
+      "Clock uncertainty must propagate into verdicts.",
+      "Missing observations must remain distinguishable from valid inactivity."
+    ]
+  },
+  {
+    "id": "mechanism-09",
+    "mechanism_family": "Constraint solving",
+    "mechanism": "Conflict-directed relaxation of infeasible plans",
+    "origin_domain": "Operations research and automated reasoning",
+    "inputs": [
+      "Candidate actions with durations and resource demands",
+      "Hard feasibility constraints",
+      "Soft preferences with explicit relaxation costs"
+    ],
+    "transformation": "Encode a plan as a constraint problem, extract conflicting constraint subsets when infeasible, and solve a weighted hitting-set problem to select the least costly permitted relaxations. Repeat until a feasible assignment exists or hard constraints alone prove infeasible.",
+    "outputs": [
+      "Feasible action schedule or hard-infeasibility certificate",
+      "Identified conflicting constraint subsets",
+      "Selected relaxations with their costs",
+      "Comparison with alternative feasible relaxations"
+    ],
+    "constraints": [
+      "Hard constraints cannot be relaxed.",
+      "Optimality claims require a solver certificate or a stated optimality gap.",
+      "Relaxation costs must use a defined comparison scale.",
+      "Conflict explanations are relative to the encoded model."
+    ]
+  },
+  {
+    "id": "mechanism-10",
+    "mechanism_family": "Counterfactual simulation",
+    "mechanism": "Paired disturbance replay for causal policy comparison",
+    "origin_domain": "Experimental design and control engineering",
+    "inputs": [
+      "Executable state-transition model",
+      "Baseline and candidate decision policies",
+      "Initial-state distribution",
+      "Recorded or sampled external disturbances",
+      "Outcome metrics and failure thresholds"
+    ],
+    "transformation": "Run baseline and candidate policies from matched initial states under shared exogenous disturbance samples. Calculate paired outcome differences, repeat across scenarios, and identify conditions under which the candidate changes threshold violations or resource consumption.",
+    "outputs": [
+      "Distribution of paired outcome differences",
+      "Estimated change in failure frequency",
+      "Scenario-specific counterexample trajectories",
+      "Sensitivity estimates for uncertain model parameters"
+    ],
+    "constraints": [
+      "Shared disturbances must represent exogenous causes; policy-dependent observations must be regenerated.",
+      "Causal conclusions depend on the model and intervention assumptions.",
+      "Uncertainty estimates must account for dependence between trials.",
+      "Simulation outcomes require separate validation against observed behavior."
+    ]
+  },
+  {
+    "id": "mechanism-11",
+    "mechanism_family": "Provenance verification",
+    "mechanism": "Dependency-aware invalidation and selective recomputation",
+    "origin_domain": "Incremental computation and data lineage",
+    "inputs": [
+      "Source records with content hashes and version identifiers",
+      "Directed graph of transformation dependencies",
+      "Transformation code and parameter versions",
+      "Cached derived artifacts"
+    ],
+    "transformation": "Construct dependency fingerprints for derived artifacts. When a source, parameter, or transformation changes, traverse affected descendants, invalidate stale artifacts, and recompute the necessary subgraph in dependency order while recording new lineage.",
+    "outputs": [
+      "Fresh, stale, or unverifiable status for each artifact",
+      "Dependency paths explaining invalidation",
+      "Minimal affected recomputation subgraph",
+      "Updated artifacts with reproducible provenance records"
+    ],
+    "constraints": [
+      "Every output-affecting dependency must be represented.",
+      "Nondeterministic transformations require recorded seeds or explicit reproducibility limits.",
+      "Cycles require fixed-point semantics or rejection.",
+      "Content hashes establish integrity relationships, not source truth.",
+      "Selective recomputation must preserve the semantics of full recomputation."
+    ]
+  },
+  {
+    "id": "mechanism-12",
+    "mechanism_family": "Runtime verification",
+    "mechanism": "Temporal invariant monitoring with minimal violation witnesses",
+    "origin_domain": "Formal methods and distributed systems",
+    "inputs": [
+      "Timestamped event streams",
+      "Temporal rules specifying required, forbidden, and ordered events",
+      "Clock uncertainty bounds"
+    ],
+    "transformation": "Compile temporal rules into stateful monitors, advance each monitor as events arrive, and retain the smallest event subsequence sufficient to demonstrate a violation. Delay conclusions when incomplete event windows or clock uncertainty prevent a definitive result.",
+    "outputs": [
+      "Satisfied, violated, or unresolved status for each rule",
+      "Minimal violation witnesses",
+      "Detection latency and event coverage measurements"
+    ],
+    "constraints": [
+      "Missing events must remain distinguishable from absent behavior.",
+      "Event ordering must account for clock uncertainty.",
+      "Monitoring state must have explicit retention bounds.",
+      "A satisfied finite trace does not establish future compliance."
+    ]
+  },
+  {
+    "id": "mechanism-13",
+    "mechanism_family": "Counterfactual simulation",
+    "mechanism": "Paired trajectory replay with controlled interventions",
+    "origin_domain": "Causal inference and simulation experimentation",
+    "inputs": [
+      "Recorded state transitions",
+      "An executable transition model",
+      "Candidate interventions",
+      "Outcome metrics",
+      "Shared random seeds and disturbance sequences"
+    ],
+    "transformation": "Reconstruct a baseline trajectory and replay alternative trajectories with one intervention changed at a time while holding modeled external disturbances constant. Compare outcomes across paired runs and repeat under plausible model parameters to measure sensitivity.",
+    "outputs": [
+      "Baseline and intervention trajectories",
+      "Paired outcome differences",
+      "Sensitivity intervals",
+      "Cases where the preferred intervention changes"
+    ],
+    "constraints": [
+      "Replay fidelity must be measured against withheld observations.",
+      "Counterfactual conclusions depend on the transition model and causal assumptions.",
+      "Interventions must respect feasible state and action boundaries.",
+      "Shared randomness reduces comparison variance but does not remove model bias."
+    ]
+  },
+  {
+    "id": "mechanism-14",
+    "mechanism_family": "Constraint solving",
+    "mechanism": "Minimum-cost repair with infeasibility explanations",
+    "origin_domain": "Operations research and model-based diagnosis",
+    "inputs": [
+      "A proposed configuration or action schedule",
+      "Hard feasibility constraints",
+      "Soft preferences with explicit penalties",
+      "Permitted edits and their costs"
+    ],
+    "transformation": "Represent the proposal and allowed edits as decision variables, enforce hard constraints, and minimize edit costs plus preference penalties. If no feasible repair exists, extract a conflicting constraint subset and identify which explicitly relaxable assumptions could restore feasibility.",
+    "outputs": [
+      "A feasible repaired configuration or schedule",
+      "An itemized edit and penalty ledger",
+      "Optimality bound or solver gap",
+      "A conflicting constraint subset when infeasible"
+    ],
+    "constraints": [
+      "Hard constraints cannot be silently relaxed.",
+      "Edit costs and preference penalties require explicit units or normalization.",
+      "Timeout results must distinguish feasible solutions from proven optima.",
+      "Conflicting subsets are not necessarily minimal unless minimality is verified."
+    ]
+  },
+  {
+    "id": "mechanism-15",
+    "mechanism_family": "Provenance and incremental verification",
+    "mechanism": "Dependency-addressed evidence propagation",
+    "origin_domain": "Build systems and scientific reproducibility",
+    "inputs": [
+      "Source records with content digests",
+      "Transformation definitions and parameter versions",
+      "A dependency graph linking derived claims to evidence",
+      "Validation rules for derived artifacts"
+    ],
+    "transformation": "Assign each derived artifact an identity computed from its inputs, transformation, and parameters. When evidence changes, traverse the dependency graph to mark affected artifacts stale, recompute the affected subgraph, and rerun its validation rules while preserving the derivation history.",
+    "outputs": [
+      "Traceable evidence-to-claim paths",
+      "A bounded set of artifacts requiring recomputation",
+      "Fresh, stale, failed, or unverifiable status",
+      "A replay manifest and validation results"
+    ],
+    "constraints": [
+      "Content integrity does not establish source truth.",
+      "External dependencies and nondeterministic inputs must be captured or explicitly marked.",
+      "Cycles require a defined convergence or rejection policy.",
+      "Provenance records must obey the access and retention restrictions of their underlying evidence."
+    ]
+  },
+  {
+    "id": "mechanism-16",
+    "mechanism_family": "Runtime verification",
+    "mechanism": "Compile temporal constraints into monitors that detect invalid event sequences and produce minimal violation witnesses.",
+    "origin_domain": "Formal verification of distributed systems",
+    "inputs": [
+      "Timestamped event stream",
+      "Temporal rules describing permitted ordering and deadlines",
+      "Clock uncertainty and event lateness bounds"
+    ],
+    "transformation": "Compile each rule into a state machine, advance its state as events arrive, and retain the smallest event subsequence sufficient to explain each violation. Delay final verdicts until the lateness bound closes the relevant observation window.",
+    "outputs": [
+      "Satisfied, violated, or unresolved verdict for each rule",
+      "Minimal violation traces",
+      "Detection latency and monitoring coverage"
+    ],
+    "constraints": [
+      "Missing events must remain distinguishable from confirmed absence.",
+      "Unbounded lateness prevents definitive deadline verdicts.",
+      "Rules must specify how simultaneous and duplicate events are handled."
+    ]
+  },
+  {
+    "id": "mechanism-17",
+    "mechanism_family": "Constraint solving",
+    "mechanism": "Identify the smallest relaxation of conflicting requirements that restores feasibility.",
+    "origin_domain": "Operations research and satisfiability solving",
+    "inputs": [
+      "Decision variables and their domains",
+      "Hard constraints",
+      "Relaxable constraints with explicit penalties",
+      "Maximum permitted relaxation budget"
+    ],
+    "transformation": "Solve the original constraint system, extract conflicting subsets when infeasible, and search for a minimum-penalty set of permitted relaxations. Re-solve under those relaxations and verify the resulting assignment against every remaining constraint.",
+    "outputs": [
+      "Feasible assignment or infeasibility verdict",
+      "Conflicting constraint subsets",
+      "Minimum-cost repair with optimality status",
+      "Constraint-by-constraint verification results"
+    ],
+    "constraints": [
+      "Hard constraints must never be relaxed.",
+      "Penalty weights encode preferences rather than objective truth.",
+      "Timeouts must distinguish a best-known repair from a proven optimum.",
+      "A repair may not exist within the permitted budget."
+    ]
+  },
+  {
+    "id": "mechanism-18",
+    "mechanism_family": "Counterfactual testing",
+    "mechanism": "Replay paired simulations under matched disturbances to isolate the modeled effect of an intervention.",
+    "origin_domain": "Experimental design and discrete-event simulation",
+    "inputs": [
+      "Executable state-transition model",
+      "Initial-state distribution",
+      "Baseline and intervention policies",
+      "Exogenous disturbance sequences",
+      "Outcome metrics"
+    ],
+    "transformation": "Run baseline and intervention trajectories from identical sampled initial states with matched exogenous disturbances. Compute within-pair outcome differences, aggregate across repetitions, and repeat under alternative plausible model parameters to measure sensitivity.",
+    "outputs": [
+      "Paired outcome differences",
+      "Estimated intervention effect with uncertainty intervals",
+      "Divergence traces identifying changed transitions",
+      "Sensitivity ranges across model assumptions"
+    ],
+    "constraints": [
+      "Effect estimates apply to the specified model and assumptions.",
+      "Random disturbances must be matched by causal role rather than merely by seed.",
+      "Intervention-dependent disturbances require an explicit coupling rule.",
+      "Real-world causal claims require independent validation."
+    ]
+  },
+  {
+    "id": "mechanism-19",
+    "mechanism_family": "Provenance and selective recomputation",
+    "mechanism": "Use a content-addressed dependency graph to trace derived claims and invalidate only computations affected by changed evidence.",
+    "origin_domain": "Build systems and data lineage",
+    "inputs": [
+      "Source records with content hashes",
+      "Versioned transformation definitions",
+      "Explicit dependency edges",
+      "Updated or withdrawn source records"
+    ],
+    "transformation": "Represent sources and derived artifacts as graph nodes keyed by content, transformation version, and parameters. Traverse descendants of changed inputs, mark affected artifacts stale, and recompute them in dependency order while preserving unaffected artifacts and recording new lineage.",
+    "outputs": [
+      "Traceable dependency graph",
+      "Affected-artifact set",
+      "Recomputed artifacts with updated provenance",
+      "Evidence paths connecting outputs to sources"
+    ],
+    "constraints": [
+      "Every material dependency must be declared.",
+      "Nondeterministic transformations must record seeds or execution-specific identities.",
+      "Hashes establish content identity rather than factual correctness.",
+      "Withdrawal policies must distinguish logical invalidation from physical deletion."
+    ]
+  },
+  {
+    "id": "mechanism-021",
+    "mechanism_family": "Runtime verification",
+    "mechanism": "Convert temporal rules into monitors that detect violations in partially ordered event streams.",
+    "origin_domain": "Formal methods and distributed systems",
+    "inputs": [
+      "Timestamped events with source identifiers",
+      "Temporal invariants and permitted timing windows",
+      "Clock uncertainty and event lateness bounds"
+    ],
+    "transformation": "Compile temporal invariants into monitor states, construct admissible event orderings from timestamp uncertainty, and evaluate whether each invariant holds across all, some, or none of those orderings. Extract minimal event sequences supporting definite violations.",
+    "outputs": [
+      "Satisfied, violated, or indeterminate verdicts",
+      "Minimal violation traces",
+      "Uncertainty intervals affecting each verdict"
+    ],
+    "constraints": [
+      "Missing events must remain distinguishable from confirmed absence.",
+      "Definite verdicts require explicit clock and lateness assumptions.",
+      "Monitor memory must be bounded or its growth reported."
+    ]
+  },
+  {
+    "id": "mechanism-022",
+    "mechanism_family": "Counterfactual optimization",
+    "mechanism": "Find the smallest feasible intervention that changes a modeled outcome while preserving protected constraints.",
+    "origin_domain": "Operations research and causal inference",
+    "inputs": [
+      "Structural causal model",
+      "Observed state and desired outcome predicate",
+      "Permitted interventions, costs, and immutable variables",
+      "Feasibility constraints and model uncertainty ranges"
+    ],
+    "transformation": "Represent interventions as decision variables, propagate their effects through the causal model, and minimize intervention cost subject to the desired outcome and feasibility constraints. Reevaluate candidate interventions across uncertainty scenarios and return infeasibility evidence when no permitted intervention succeeds.",
+    "outputs": [
+      "Minimum-cost feasible intervention",
+      "Predicted before-and-after states",
+      "Sensitivity results across uncertainty scenarios",
+      "Infeasibility explanation when applicable"
+    ],
+    "constraints": [
+      "Causal effects require justified structural assumptions.",
+      "Immutable variables cannot be directly intervened upon.",
+      "Optimality claims must identify solver tolerance and search bounds.",
+      "Robustness applies only to the modeled uncertainty set."
+    ]
+  },
+  {
+    "id": "mechanism-023",
+    "mechanism_family": "Provenance and selective invalidation",
+    "mechanism": "Trace derived claims to their dependencies and recompute only the results affected by changed or withdrawn evidence.",
+    "origin_domain": "Incremental computation and data lineage",
+    "inputs": [
+      "Versioned evidence records",
+      "Transformation definitions and execution parameters",
+      "Dependency edges between evidence and derived results",
+      "Evidence changes, withdrawals, or expiration events"
+    ],
+    "transformation": "Construct a versioned dependency graph with content fingerprints, traverse downstream dependencies when evidence changes, and invalidate affected results. Recompute invalidated nodes in dependency order while retaining unaffected results and recording the evidence versions used in each execution.",
+    "outputs": [
+      "Evidence-to-result lineage paths",
+      "Affected-result set for each change",
+      "Recomputed results with execution records",
+      "Explicit stale or unresolved result markers"
+    ],
+    "constraints": [
+      "All material dependencies, including configuration and model versions, must be recorded.",
+      "Cycles require an explicit convergence or rejection policy.",
+      "Content fingerprints establish identity, not factual correctness.",
+      "Withdrawn evidence must not remain silently embedded in cached results."
+    ]
+  },
+  {
+    "id": "mechanism-024",
+    "mechanism_family": "Simulation-based control verification",
+    "mechanism": "Search for disturbances that break a control policy and use the resulting traces to refine its operating envelope.",
+    "origin_domain": "Control theory and adversarial simulation",
+    "inputs": [
+      "Executable system simulator",
+      "Candidate control policy",
+      "Safety predicates and performance limits",
+      "Bounded disturbances and uncertain system parameters"
+    ],
+    "transformation": "Run closed-loop simulations while optimizing disturbance sequences and parameter choices toward safety violations. Minimize discovered failure traces, identify the conditions under which failures occur, and rerun the search after policy or operating-bound changes.",
+    "outputs": [
+      "Reproducible failure traces",
+      "Minimum observed safety margins",
+      "Tested operating envelope",
+      "Comparative results before and after policy changes"
+    ],
+    "constraints": [
+      "Disturbances must remain within declared physical or operational bounds.",
+      "Simulation fidelity limits transfer to real systems.",
+      "Failure-free searches do not constitute formal safety proofs.",
+      "Reproduction requires recorded simulator versions, parameters, seeds, and policy versions."
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+2026-10-22T20:17:44+00:00 INFO run initialized provider='codex' search_profile='balanced'
+2026-10-22T20:17:44+00:00 INFO stage started stage='provider_selection'
+2026-10-22T20:17:44+00:00 INFO stage started stage='competition_research'
+2026-10-22T20:17:45+00:00 INFO stage started stage='winner_patterns'
+2026-10-22T20:17:45+00:00 INFO stage started stage='divergent_search'
+2026-10-22T20:17:45+00:00 INFO stage started stage='opportunity_discovery' requested=24
+2026-10-22T20:17:45+00:00 INFO stage started stage='mechanism_mining' requested=24
+2026-10-22T20:17:45+00:00 INFO stage started stage='concept_crossing' requested=32
+2026-10-22T20:17:45+00:00 INFO stage started stage='mutation_round_1' requested=8
+2026-10-22T20:17:45+00:00 INFO stage started stage='mutation_round_2' requested=8
+2026-10-22T20:17:45+00:00 INFO stage started stage='hard_gates' candidates=48
+2026-10-22T20:19:51+00:00 INFO stage started stage='collision_audit' candidates=12
+2026-10-22T20:19:51+00:00 ERROR run failed stage='collision_audit' error_type='RuntimeError' error='Collision audit payload is 160316 chars, over the 120000 limit; refusing to truncate JSON mid-object. Reduce the shortlist size or analogue depth.'
+Traceback (most recent call last):
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/pipeline/__init__.py", line 856, in run_analyse
+    return _run_analyse_impl(_journal=journal, **kwargs)
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/pipeline/__init__.py", line 323, in _run_analyse_impl
+    collisions = audit_collisions(
+        providers.collision,
+    ...<3 lines>...
+        exclude=collision_excludes,
+    )
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/collision/__init__.py", line 28, in audit_collisions
+    return audit_collisions_engine(
+        provider,
+    ...<5 lines>...
+        require_semantic=env_flag("HACKFORGE_REQUIRE_SEMANTIC_COLLISION", default=False),
+    )
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/collision/engine.py", line 227, in audit_collisions_engine
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: Collision audit payload is 160316 chars, over the 120000 limit; refusing to truncate JSON mid-object. Reduce the shortlist size or analogue depth.
+

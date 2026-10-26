@@ -1,0 +1,376 @@
+[
+  {
+    "id": "opp-001",
+    "user_class": "Blind and low-vision viewers",
+    "painful_workflow": "Following visually significant events in films that lack an audio-description track.",
+    "unmet_need": "Understand essential visual context while retaining access to spoken dialogue.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied October 22 repository description explicitly identifies films without description tracks as an accessibility gap relevant to this track.",
+    "unresolved_claims": [
+      "The evidence is a developer's project description, not independent user research.",
+      "The prevalence of missing description tracks and the severity of resulting comprehension gaps are unverified.",
+      "Viewers' preferences regarding timing, detail, and interruption require validation."
+    ]
+  },
+  {
+    "id": "opp-002",
+    "user_class": "Older adults performing strength and balance exercises at home",
+    "painful_workflow": "Completing exercise movements without knowing whether their execution is correct.",
+    "unmet_need": "Recognize execution mistakes and understand when to adjust or stop an exercise.",
+    "evidence_ids": [
+      "src-751e301f958d"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied October 22 repository description identifies older adults' home exercise and fall prevention as an active area of developer attention.",
+    "unresolved_claims": [
+      "The repository description establishes intended use, not demonstrated user demand or clinical effectiveness.",
+      "The frequency and consequences of unrecognized execution mistakes are unverified.",
+      "Exercise suitability and the reliability of any safety-related assessment require appropriate validation."
+    ]
+  },
+  {
+    "id": "opp-003",
+    "user_class": "People resuming interrupted everyday routines",
+    "painful_workflow": "Returning to a partially completed routine and reconstructing where to continue.",
+    "unmet_need": "Recover the last completed step and identify the next required action without unnecessarily repeating prior work.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 22 repository description explicitly frames resuming everyday routines without starting over as an intended user outcome.",
+    "unresolved_claims": [
+      "The reconstruction workflow is inferred from the stated outcome.",
+      "The evidence does not identify a validated user segment, routine type, or interruption frequency.",
+      "The cost of repetition and the information needed for reliable resumption remain unverified."
+    ]
+  },
+  {
+    "id": "opp-004",
+    "user_class": "People assessing eligibility for public benefits",
+    "painful_workflow": "Determining which eligibility questions matter and translating an assessment into application steps.",
+    "unmet_need": "Understand relevant eligibility conditions and the next steps needed to pursue applicable benefits.",
+    "evidence_ids": [
+      "src-b13acf62a585"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 22 repository description explicitly targets benefits screening and subsequent step-by-step guidance.",
+    "unresolved_claims": [
+      "The evidence describes developer intent rather than independently established applicant difficulties.",
+      "The applicable benefits, jurisdictions, and applicant populations require definition.",
+      "The accuracy of eligibility determinations and the completeness of application guidance are unverified.",
+      "The evidence does not establish whether existing assistance already meets this need."
+    ]
+  },
+  {
+    "id": "opp-004",
+    "user_class": "Blind and low-vision television viewers",
+    "painful_workflow": "Following films when essential visual events are absent from dialogue and no audio-description track is available.",
+    "unmet_need": "Understand consequential visual events while retaining access to the original dialogue.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied October 2026 repository description explicitly identifies films without description tracks as an accessibility gap.",
+    "unresolved_claims": [
+      "Evidence is a developer's project description, not independent viewer research.",
+      "Frequency, affected catalog size, and viewer priorities remain unverified."
+    ]
+  },
+  {
+    "id": "opp-005",
+    "user_class": "Older adults undertaking strength and balance exercise at home",
+    "painful_workflow": "Completing exercise sessions while determining whether movements and repetitions are being performed appropriately.",
+    "unmet_need": "Exercise guidance that accommodates uncertainty about execution and progress.",
+    "evidence_ids": [
+      "src-751e301f958d"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied October 2026 repository description explicitly targets older adults' strength and balance practice, indicating current developer attention to this objective.",
+    "unresolved_claims": [
+      "The description establishes an intended audience and objective rather than validated user demand.",
+      "Actual difficulties, accessibility requirements, and available support need participant research.",
+      "Fall-prevention efficacy and safety benefits are not established by this evidence."
+    ]
+  },
+  {
+    "id": "opp-006",
+    "user_class": "People assessing their eligibility for public benefits",
+    "painful_workflow": "Determining which personal circumstances affect eligibility and what steps follow an assessment.",
+    "unmet_need": "Understand relevant eligibility conditions and the actions required to pursue potentially applicable benefits.",
+    "evidence_ids": [
+      "src-b13acf62a585"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 2026 repository description highlights selective eligibility questions and subsequent application steps as a current workflow focus.",
+    "unresolved_claims": [
+      "Applicant confusion and abandonment are hypotheses; the evidence supplies no applicant interviews or outcome measurements.",
+      "Applicable programs, jurisdictions, policy freshness, and assessment accuracy remain unverified.",
+      "The scale of unmet demand is unknown."
+    ]
+  },
+  {
+    "id": "opp-007",
+    "user_class": "People returning to interrupted everyday routines",
+    "painful_workflow": "Resuming an everyday routine after an interruption without losing prior progress or repeating completed steps.",
+    "unmet_need": "Retain enough context to understand where to continue and what remains unfinished.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 2026 repository description explicitly identifies returning to routines without starting over as its intended user outcome.",
+    "unresolved_claims": [
+      "The evidence states a developer's intended outcome rather than observed user behavior.",
+      "Which routines cause consequential restart costs, how frequently interruptions occur, and who is most affected remain unverified.",
+      "Existing alternatives and their shortcomings have not been assessed."
+    ]
+  },
+  {
+    "id": "opp-009",
+    "user_class": "Blind and low-vision film viewers",
+    "painful_workflow": "Following visually important scenes when a film lacks an audio-description track.",
+    "unmet_need": "Understand essential visual events without losing access to spoken dialogue.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied repository description explicitly identifies films without description tracks as an accessibility gap; the competition includes Fire TV.",
+    "unresolved_claims": [
+      "The evidence is an entrant's description, not independent user research.",
+      "The frequency of missing description tracks and the affected audience size are unverified.",
+      "Viewer preferences and acceptable interference with dialogue require validation."
+    ]
+  },
+  {
+    "id": "opp-010",
+    "user_class": "People returning to interrupted everyday routines",
+    "painful_workflow": "Recovering where they stopped and deciding what remains before continuing a routine.",
+    "unmet_need": "Resume with sufficient context to avoid unnecessary repetition or omitted steps.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied repository description explicitly frames returning to a routine without starting over as an objective within the Alexa+ track.",
+    "unresolved_claims": [
+      "The description establishes an entrant's intended objective, not demonstrated user demand.",
+      "Specific routines, interruption causes, and consequences of missed steps are unspecified.",
+      "The extent to which existing approaches fail to preserve context is unverified."
+    ]
+  },
+  {
+    "id": "opp-011",
+    "user_class": "People assessing their eligibility for public benefits",
+    "painful_workflow": "Working through eligibility questions and translating the assessment into concrete application steps.",
+    "unmet_need": "Understand which questions affect their eligibility and what they must do next.",
+    "evidence_ids": [
+      "src-b13acf62a585"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied repository description connects benefits screening with consequential questions and subsequent steps, identifying a candidate workflow for investigation.",
+    "unresolved_claims": [
+      "Screening burden and abandonment are inferred rather than measured in the supplied evidence.",
+      "The relevant benefit programs, jurisdictions, and applicant populations remain unspecified.",
+      "Accuracy, policy freshness, and actual applicant outcomes are unverified."
+    ]
+  },
+  {
+    "id": "opp-012",
+    "user_class": "International truck-fleet operators",
+    "painful_workflow": "Reconciling vehicle readiness, border documentation, maintenance risks, and return-trip utilization before dispatch decisions.",
+    "unmet_need": "Understand which unresolved operational conditions prevent a viable trip and require attention.",
+    "evidence_ids": [
+      "src-1a8eddf9e1c0"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied repository description brings these operational concerns together; the competition's Alexa+ track permits a working simulated experience for examining the workflow.",
+    "unresolved_claims": [
+      "The repository description does not establish measured operator pain or unmet demand.",
+      "Its inclusion in the evidence catalog does not verify competition participation or track qualification.",
+      "Operational data availability, decision authority, and the consequences of unresolved conditions require validation."
+    ]
+  },
+  {
+    "id": "opp-013",
+    "user_class": "Blind and low-vision film viewers",
+    "painful_workflow": "Following visual events in films that lack an audio-description track.",
+    "unmet_need": "Understand consequential visual context while still hearing dialogue clearly.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A repository snapshot dated October 22, 2026 explicitly identifies films without description tracks as an accessibility gap.",
+    "unresolved_claims": [
+      "The evidence is a developer-authored repository description, not independent viewer research.",
+      "The prevalence of missing description tracks and the relative importance of different visual details remain unverified."
+    ]
+  },
+  {
+    "id": "opp-014",
+    "user_class": "People returning to an interrupted everyday routine",
+    "painful_workflow": "Reconstructing where they stopped and which steps remain before continuing a routine.",
+    "unmet_need": "Resume with confidence about completed and outstanding steps without repeating the entire routine.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "An October 22, 2026 repository description explicitly frames returning to a routine without starting over as a current objective.",
+    "unresolved_claims": [
+      "The reconstruction burden is inferred from the stated objective; no observed user workflow is supplied.",
+      "The affected routines, interruption frequency, and consequences of repeating or skipping steps require validation."
+    ]
+  },
+  {
+    "id": "opp-015",
+    "user_class": "People assessing eligibility for public benefits",
+    "painful_workflow": "Determining which personal circumstances affect eligibility and what to do after an initial assessment.",
+    "unmet_need": "Reach a comprehensible eligibility assessment with a manageable questioning burden and clear next steps.",
+    "evidence_ids": [
+      "src-b13acf62a585"
+    ],
+    "track": "Alexa+",
+    "why_now": "An October 22, 2026 repository description emphasizes decision-relevant questions and a step-by-step handoff, indicating contemporary developer attention to this workflow.",
+    "unresolved_claims": [
+      "Questioning burden and difficulty acting on assessments are inferred from the repository description, not established by claimant interviews.",
+      "Applicable jurisdictions, policy accuracy, application requirements, and actual abandonment rates remain unverified."
+    ]
+  },
+  {
+    "id": "opp-016",
+    "user_class": "Family members sharing experiences across separate locations",
+    "painful_workflow": "Keeping relatives included in trips and everyday moments as photos and live experiences occur across different phones and locations.",
+    "unmet_need": "Maintain shared context and a sense of participation without requiring each relative to reconstruct events from scattered updates.",
+    "evidence_ids": [
+      "src-4086cadfdf8d"
+    ],
+    "track": "Fire TV",
+    "why_now": "An October 22, 2026 repository description explicitly centers geographically separated family participation and photos arriving from multiple phones.",
+    "unresolved_claims": [
+      "Fragmentation and reconstruction effort are inferred; the evidence contains no direct family testimony.",
+      "Household preferences, consent expectations, accessibility needs, and dissatisfaction with existing sharing practices remain unverified."
+    ]
+  },
+  {
+    "id": "opp-017",
+    "user_class": "Family members sharing a household television",
+    "painful_workflow": "Keeping relatives involved in everyday family moments when photos and updates remain scattered across individual phones.",
+    "unmet_need": "A shared sense of family participation without requiring each relative to follow separate personal communication streams.",
+    "evidence_ids": [
+      "src-4086cadfdf8d"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied repository snapshot dated October 22, 2026 explicitly targets sharing family moments between phones and the household television, indicating contemporary developer attention to this objective.",
+    "unresolved_claims": [
+      "The repository description signals an intended outcome rather than independently verified household pain.",
+      "Frequency, severity, existing alternatives, and willingness to share personal media require user research."
+    ]
+  },
+  {
+    "id": "opp-018",
+    "user_class": "People returning to interrupted everyday routines",
+    "painful_workflow": "Recovering their place in a routine after an interruption without repeating completed steps or overlooking unfinished ones.",
+    "unmet_need": "Confidence about what remains to be done and where to resume.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 22, 2026 repository description explicitly identifies returning to everyday routines without starting over as its objective.",
+    "unresolved_claims": [
+      "The source describes developer intent rather than observed user behavior.",
+      "Which routines are consequential, how often interruptions occur, and whether recovery is currently difficult remain unverified."
+    ]
+  },
+  {
+    "id": "opp-019",
+    "user_class": "Blind and low-vision film viewers",
+    "painful_workflow": "Following visual events in films that lack an audio-description track while also keeping up with spoken dialogue.",
+    "unmet_need": "Access to essential visual context without losing dialogue comprehension.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied October 22, 2026 repository description explicitly identifies films without description tracks and the need to preserve dialogue as an accessibility concern.",
+    "unresolved_claims": [
+      "The repository description does not establish how often viewers encounter this gap.",
+      "Audience priorities, acceptable timing, descriptive accuracy, and availability of authorized media require validation."
+    ]
+  },
+  {
+    "id": "opp-020",
+    "user_class": "International truck-fleet dispatchers",
+    "painful_workflow": "Determining whether a vehicle is ready for a cross-border assignment while reconciling border paperwork, maintenance concerns, and return-trip availability.",
+    "unmet_need": "A dependable understanding of unresolved readiness constraints before committing a vehicle to a trip.",
+    "evidence_ids": [
+      "src-1a8eddf9e1c0"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied October 22, 2026 repository description brings vehicle readiness, border documentation, maintenance risks, and empty return trips into the same operational context.",
+    "unresolved_claims": [
+      "The source does not establish observed dispatcher pain, its frequency, or its financial consequences.",
+      "Alexa+ suitability is an inferred track fit; the repository excerpt does not establish that integration.",
+      "Access to reliable operational records and jurisdiction-specific requirements is unverified."
+    ]
+  },
+  {
+    "id": "opp-021",
+    "user_class": "Blind and low-vision film viewers",
+    "painful_workflow": "Following visually important events in films that lack an audio-description track.",
+    "unmet_need": "Understand consequential visual context while retaining access to spoken dialogue.",
+    "evidence_ids": [
+      "src-e551abd51f18"
+    ],
+    "track": "Fire TV",
+    "why_now": "A supplied repository description explicitly identifies films without description tracks as an accessibility gap within the current Fire TV ecosystem.",
+    "unresolved_claims": [
+      "The evidence is a project author's description, not independent viewer research.",
+      "Frequency, affected catalogue size, and viewers' preferred balance between description and dialogue remain unverified."
+    ]
+  },
+  {
+    "id": "opp-022",
+    "user_class": "People screening their own eligibility for public benefits",
+    "painful_workflow": "Determining which personal circumstances affect eligibility and what steps follow an initial screening.",
+    "unmet_need": "Reach an understandable eligibility assessment and know the remaining application obligations without answering irrelevant questions.",
+    "evidence_ids": [
+      "src-b13acf62a585"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied repository description identifies selective eligibility questioning and subsequent application planning as a current workflow focus.",
+    "unresolved_claims": [
+      "The repository description suggests the need but does not establish applicant experiences or demand.",
+      "Relevant jurisdictions, policy coverage, screening accuracy, and actual application barriers remain unverified."
+    ]
+  },
+  {
+    "id": "opp-023",
+    "user_class": "International truck-fleet dispatchers",
+    "painful_workflow": "Assessing vehicle readiness, border documentation, maintenance risks, and return-trip availability before dispatch.",
+    "unmet_need": "Understand which unresolved condition prevents a feasible dispatch and which obligation needs attention before departure.",
+    "evidence_ids": [
+      "src-1a8eddf9e1c0"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied repository description brings these interdependent dispatch concerns together, suggesting a concrete decision workflow worth validating.",
+    "unresolved_claims": [
+      "The source describes a project rather than observed dispatcher pain or measured delays.",
+      "Its competition affiliation and Alexa+ qualification are unverified; track assignment reflects potential thematic fit.",
+      "Availability and authority of operational, maintenance, and border-documentation data remain unverified."
+    ]
+  },
+  {
+    "id": "opp-024",
+    "user_class": "People returning to an interrupted everyday routine",
+    "painful_workflow": "Recovering their place in a routine after an interruption without repeating completed steps.",
+    "unmet_need": "Know what was completed, what remains, and where to resume with confidence.",
+    "evidence_ids": [
+      "src-306f0d0e84ca"
+    ],
+    "track": "Alexa+",
+    "why_now": "A supplied Alexa+ repository description explicitly frames resuming an everyday routine without starting over as its intended user outcome.",
+    "unresolved_claims": [
+      "The source does not identify a validated user segment, specific routine, or interruption frequency.",
+      "The consequences of repeated or missed steps and the reliability of available completion evidence remain unverified."
+    ]
+  }
+]

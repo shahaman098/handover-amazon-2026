@@ -1,0 +1,666 @@
+[
+  {
+    "candidate_id": "concept-001",
+    "nearest_analogues": [
+      {
+        "name": "CesarRivasP/Interstice",
+        "source": "github",
+        "url": "https://github.com/CesarRivasP/Interstice",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": true
+        },
+        "differences": [
+          "Candidate uses authored timestamps and prerecorded variants instead of generated descriptions.",
+          "Candidate demonstrates explicit scheduling conflicts and viewer-approved pauses."
+        ]
+      },
+      {
+        "name": "What, When, and How: Audio Description as Constrained Global Optimization",
+        "source": "supplied research analogue",
+        "url": "https://arxiv.org/abs/2609.30121",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate exhaustively enumerates a small authored fixture rather than optimizing generated alternatives with mixed integer constraints.",
+          "Candidate exposes infeasibility and requests permission for a playback pause."
+        ]
+      },
+      {
+        "name": "W3C G8 extended audio description",
+        "source": "supplied accessibility technique",
+        "url": "https://www.w3.org/WAI/WCAG21/Techniques/general/G8.html",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate computes deadline and precedence conflicts before offering a pause.",
+          "Candidate requires remote approval and exposes a playback timing trace."
+        ]
+      }
+    ],
+    "collision_risk": "high",
+    "observable_differentiator": "An infeasible variant produces a constraint explanation followed by a viewer-approved pause, with intervals visible in the playback trace.",
+    "differentiator_is_substantive": false,
+    "kill_recommendation": true,
+    "notes": "Multiple supplied analogues already cover the audience, dialogue-safe scheduling mechanism and extended-description fallback. Conflict explanations and approval improve inspectability but do not establish a material departure from their combined workflow."
+  },
+  {
+    "candidate_id": "mut-r2-08-compare-before-resuming",
+    "nearest_analogues": [
+      {
+        "name": "Appvertices/alexa-resume",
+        "source": "github",
+        "url": "https://github.com/Appvertices/alexa-resume",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate rehearses alternative policies instead of directly resuming a routine.",
+          "Candidate pairs traces under identical external removal events and reports separate burden and prerequisite outcomes."
+        ]
+      },
+      {
+        "name": "Amazon companion skills for board games",
+        "source": "supplied Amazon guide",
+        "url": "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/resources/How_to_Build_Alexa_Companion_Skills_for_Board_Games._CB1583784193_.pdf",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate compares restart and prerequisite-check policies rather than repeating a stored instruction.",
+          "Candidate reruns a declared scenario matrix after an assumption edit."
+        ]
+      },
+      {
+        "name": "concept-004",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate executes paired household policy transitions instead of stress-testing financial reporting recommendations.",
+          "Candidate persists a comparison run with repeated-step, confirmation and unresolved-prerequisite counts."
+        ]
+      }
+    ],
+    "collision_risk": "low",
+    "observable_differentiator": "Replay both policies across the complete declared removal matrix, preserve shared event identities, then change one assumption and reproduce the resulting tradeoff.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "The supplied routine analogues resume instructions; the candidate evaluates resumption policies before adoption. The prior run shares counterfactual testing but differs in user, problem and terminal action. Household demand remains unvalidated."
+  },
+  {
+    "candidate_id": "mut-r1-07-evidence-handoff-ledger",
+    "nearest_analogues": [
+      {
+        "name": "shiva-shivanibokka/unclaimed",
+        "source": "github",
+        "url": "https://github.com/shiva-shivanibokka/unclaimed",
+        "similarities": {
+          "same_user": true,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate reconciles applicant-helper document assertions rather than screening benefits eligibility.",
+          "Candidate persists confirmed supersession chains and invalidates dependent assessments."
+        ]
+      },
+      {
+        "name": "BOLT for Alexa+",
+        "source": "devpost",
+        "url": "https://devpost.com/software/bolt-for-alexa",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": true
+        },
+        "differences": [
+          "Candidate represents source versions and assertion-level supersession explicitly.",
+          "Candidate demonstrates dependency invalidation, persistence after reload and stale-write rejection."
+        ]
+      },
+      {
+        "name": "concept-003",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Candidate commits attributed assertion replacements rather than correcting financial records.",
+          "Candidate preserves unresolved conflicts and recomputes the dependent assessment closure."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "A confirmed assertion replacement preserves both versions, withdraws dependent conclusions, survives reload and rejects a stale competing edit.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Approval and audit-log mechanics overlap with BOLT and the prior run, but assertion-level provenance and dependency invalidation materially change the demonstrated workflow. The supplied benefits analogue shares the applicant audience without the reconciliation mechanism. Collaborative demand remains unvalidated."
+  },
+  {
+    "candidate_id": "mut-r2-06-routine-conflict-desk",
+    "nearest_analogues": [
+      {
+        "name": "concept-006",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Checks authored timing and confirmation rules through a remote-editable routine rather than disputed code-review assumptions.",
+          "Demonstrates cardinality-minimum conflict extraction and whole-routine revalidation before task closure."
+        ]
+      },
+      {
+        "name": "mut-r1-01-contract-correction-commit",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Repairs temporal session contracts through linked routine fields instead of committing documentation and example corrections.",
+          "Keeps a review task open when a second independent conflict survives the first repair."
+        ]
+      }
+    ],
+    "collision_risk": "low",
+    "observable_differentiator": "A remote edit removes one certified minimum conflict, but the task remains open until the complete bounded routine admits a valid trace; undefined semantics produce an indeterminate result.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Constraint diagnosis is reused, but supplied analogues do not share the facilitator, authoring problem, and core mechanism together. Minimum cardinality requires exhaustive smaller-subset checks; member-removal checks alone prove only inclusion minimality. Workflow demand remains unvalidated."
+  },
+  {
+    "candidate_id": "concept-016",
+    "nearest_analogues": [
+      {
+        "name": "sw-works/mantelpiece",
+        "source": "github",
+        "url": "https://github.com/sw-works/mantelpiece",
+        "similarities": {
+          "same_user": true,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": true,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Repairs a timed family session around attendance, permissions, and pinned moments rather than displaying incoming family photos.",
+          "Shows an optimal edit ledger and rejects incompatible pins."
+        ]
+      },
+      {
+        "name": "What, When, and How: Audio Description as Constrained Global Optimization",
+        "source": "public-paper",
+        "url": "https://arxiv.org/abs/2609.30121",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Minimizes changes to an existing photo sequence rather than selecting and scheduling descriptions into dialogue gaps.",
+          "Lets a family host accept a repair and begin shared playback."
+        ]
+      },
+      {
+        "name": "concept-006",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Exhaustively minimizes declared photo-sequence edit costs instead of evaluating code-review repairs.",
+          "Produces playable session schedules with permission and attendance constraints."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "Changing one relative's attendance window produces a provably minimum-cost sequence repair with an itemized edit ledger; incompatible pinned moments produce a verified conflict.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Family-photo television use overlaps Mantelpiece, while temporal optimization overlaps the paper. Neither supplied description establishes the combined repair workflow. Optimality is relative to the capped instance and declared preference points; family demand remains hypothetical."
+  },
+  {
+    "candidate_id": "concept-012",
+    "nearest_analogues": [
+      {
+        "name": "Chujutak2024/cargomesh",
+        "source": "github",
+        "url": "https://github.com/Chujutak2024/cargomesh",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Compares two policies under identical seeded disturbances and exposes paired reversal trajectories.",
+          "Exports a conditional intervention review card from fictional trip simulations."
+        ]
+      },
+      {
+        "name": "concept-004",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": false
+        },
+        "differences": [
+          "Replays executable trip policies with shared disturbances rather than stressing financial reporting decisions against unresolved evidence.",
+          "Conversationally changes a return-load cutoff and recomputes paired outcomes."
+        ]
+      },
+      {
+        "name": "BOLT for Alexa+",
+        "source": "public-project",
+        "url": "https://devpost.com/software/bolt-for-alexa",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": true
+        },
+        "differences": [
+          "Centers the conversational simulation on matched policy comparisons and counterexample traces.",
+          "Produces conditional advice rather than approving or rejecting simulated operational changes."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "Each comparison links two policy-dependent executable traces sharing a disturbance ID, including a scenario that reverses the preferred intervention when the return-load cutoff changes.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "CargoMesh strongly overlaps the user and operational problem, but its supplied description does not establish paired disturbance replay. Retain only if the demo executes that comparison and exposes reversal conditions. Synthetic results support model-relative comparisons, not validated operational causal claims. False similarity flags for undocumented analogue details mean overlap is unestablished."
+  },
+  {
+    "candidate_id": "mut-r2-05-description-reserve",
+    "nearest_analogues": [
+      {
+        "name": "CesarRivasP/Interstice",
+        "source": "github",
+        "url": "https://github.com/CesarRivasP/Interstice",
+        "similarities": {
+          "same_user": true,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Reallocates existing offline description packs under a byte budget instead of generating narration for dialogue gaps.",
+          "Demonstrates actual asset replacement and storage infeasibility."
+        ]
+      },
+      {
+        "name": "What, When, and How: Audio Description as Constrained Global Optimization",
+        "source": "retrieved research analogue",
+        "url": "https://arxiv.org/abs/2609.30121",
+        "similarities": {
+          "same_user": true,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Optimizes library storage assignments rather than description timing within films.",
+          "Applies verified local pack replacements while preserving declared essential-event coverage."
+        ]
+      }
+    ],
+    "collision_risk": "low",
+    "observable_differentiator": "A reduced byte allowance triggers an optimal pack reassignment that changes offline playback assets; a tighter allowance produces explicit infeasibility.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Shared audience and constrained optimization do not establish the same workflow or core mechanism. Demand remains unvalidated; authored coverage manifests establish declared coverage, not independently verified accessibility quality. Assessment uses supplied descriptions only."
+  },
+  {
+    "candidate_id": "mut-r1-04-screening-replay-bench",
+    "nearest_analogues": [
+      {
+        "name": "shiva-shivanibokka/unclaimed",
+        "source": "github",
+        "url": "https://github.com/shiva-shivanibokka/unclaimed",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Serves script maintainers validating changes rather than people seeking benefit guidance.",
+          "Produces differential test failures and rerunnable bundles rather than screening plans."
+        ]
+      },
+      {
+        "name": "concept-005",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Runs fixed differential and metamorphic assertions instead of selecting investigations by expected information value.",
+          "Shows a minimal failing conversation against independently authored expectations."
+        ]
+      }
+    ],
+    "collision_risk": "low",
+    "observable_differentiator": "An undeclared dependency fails correction equivalence, yields a minimal reproducible transcript, and passes after a rule fix using the same expectation manifest.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "The supplied screening analogue shares the domain but not the maintainer workflow. Replayable evidence alone does not make the prior investigation concepts equivalent. Generic conversational regression-testing novelty is not established by this payload; user demand remains unvalidated."
+  },
+  {
+    "candidate_id": "mut-r2-03-departure-interlock",
+    "nearest_analogues": [
+      {
+        "name": "BOLT for Alexa+",
+        "source": "retrieved public project",
+        "url": "https://devpost.com/software/bolt-for-alexa",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": true
+        },
+        "differences": [
+          "Invalidates key-possession evidence after a contradictory household event.",
+          "Requires version-consistent authorization through both conversational and direct command endpoints."
+        ]
+      },
+      {
+        "name": "concept-003",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Guards a departure transition using invalidatable session evidence rather than applying financial corrections.",
+          "Demonstrates stale-authorization rejection and direct-endpoint bypass prevention."
+        ]
+      },
+      {
+        "name": "Amazon companion skills for board games",
+        "source": "retrieved Amazon reference",
+        "url": "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/resources/How_to_Build_Alexa_Companion_Skills_for_Board_Games._CB1583784193_.pdf",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Blocks transitions when prerequisite evidence becomes invalid instead of resuming stored instructions.",
+          "Rejects stale authorization after intervening state changes."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "Contradiction invalidates an earlier confirmation; stale and direct-endpoint departure attempts fail, followed by exactly one successful transition after fresh confirmation.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "BOLT overlaps strongly at the simulated permission-state-machine level. Versioned evidence invalidation and atomic guard enforcement are substantive if demonstrated, although the payload does not establish that BOLT lacks them. No supplied cluster shares user, problem, and mechanism. The simulator verifies confirmation handling, not actual key possession."
+  },
+  {
+    "candidate_id": "mut-r2-02-ready-window-routine",
+    "nearest_analogues": [
+      {
+        "name": "Dwell — Build, Ship, Shape",
+        "source": "public-project",
+        "url": "https://devpost.com/software/dwell-build-ship-shape",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Schedules one expiring instruction prompt with fresh readiness confirmation.",
+          "Demonstrates stop, expiry, and duplicate-trigger handling against a persisted action."
+        ]
+      },
+      {
+        "name": "mut-r1-02-deferred-reproduction-queue",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Uses authored rest and remote confirmations instead of artifact availability.",
+          "Timer delivery requests readiness; it cannot directly start movement playback."
+        ]
+      },
+      {
+        "name": "aditya13504/steady-firetv",
+        "source": "github",
+        "url": "https://github.com/aditya13504/steady-firetv",
+        "similarities": {
+          "same_user": true,
+          "same_problem": false,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Uses explicit remote events and authored timing instead of camera pose tracking.",
+          "Demonstrates interrupted-routine scheduling conflicts and readiness-gated resumption."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "An infeasible rest/window intersection becomes a persisted, expiring readiness prompt after approved window repair; stop, expiry, and duplicate delivery visibly prevent playback.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Scheduling and durable conditional execution are established mechanisms. The supplied analogues do not combine the same user, interruption problem, and execution workflow. Retention depends on demonstrating actual persisted timer behavior, not merely displaying a countdown."
+  },
+  {
+    "candidate_id": "concept-020",
+    "nearest_analogues": [
+      {
+        "name": "Chujutak2024/cargomesh",
+        "source": "github",
+        "url": "https://github.com/Chujutak2024/cargomesh",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": true,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Shows hash-based descendant invalidation while preserving an unaffected truck branch.",
+          "Persists a confirmed hold that survives evidence restoration until explicit release."
+        ]
+      },
+      {
+        "name": "BOLT for Alexa+",
+        "source": "public-project",
+        "url": "https://devpost.com/software/bolt-for-alexa",
+        "similarities": {
+          "same_user": false,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": true,
+          "same_demo": true
+        },
+        "differences": [
+          "Computes readiness through a content-addressed dependency graph.",
+          "Withdrawal produces selective recomputation and an inspectable evidence path."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "Withdraw one maintenance clearance and expose changed hashes, invalidated descendants, recomputation, and an unchanged truck branch; restore evidence while retaining the separately authorized hold.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "CargoMesh strongly overlaps the fleet user, readiness problem, and evidence categories; a conversational readiness checker alone would collide. The supplied description does not establish CargoMesh's invalidation mechanism or hold semantics. Boolean nonmatches indicate unestablished overlap, not verified absence. Synthetic records limit operational validation."
+  },
+  {
+    "candidate_id": "concept-026",
+    "nearest_analogues": [
+      {
+        "name": "aditya13504/steady-firetv",
+        "source": "github",
+        "url": "https://github.com/aditya13504/steady-firetv",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Evaluates remote confirmations and timer events rather than camera-derived movement.",
+          "Produces subset-minimal violation traces and indeterminate verdicts for missing confirmations."
+        ]
+      },
+      {
+        "name": "concept-002",
+        "source": "prior-run:2026-10-21-open-agent-hackathon-2026",
+        "url": "",
+        "similarities": {
+          "same_user": false,
+          "same_problem": false,
+          "same_mechanism": true,
+          "same_data": false,
+          "same_action": false,
+          "same_demo": false
+        },
+        "differences": [
+          "Minimizes ordered session events under temporal rules rather than conflicting review assumptions.",
+          "The evaluated trace directly controls routine progression on the TV."
+        ]
+      },
+      {
+        "name": "Ready-Window Routine",
+        "source": "task:candidate:mut-r2-02-ready-window-routine",
+        "url": "",
+        "similarities": {
+          "same_user": true,
+          "same_problem": true,
+          "same_mechanism": false,
+          "same_data": true,
+          "same_action": false,
+          "same_demo": true
+        },
+        "differences": [
+          "Explains recorded violations through trace minimization instead of allocating a future instruction window.",
+          "Demonstrates missing-event uncertainty rather than pending-action expiry and delivery."
+        ]
+      }
+    ],
+    "collision_risk": "medium",
+    "observable_differentiator": "Changing event order or rest duration changes both progression and the extracted counterexample; omitting confirmation produces an indeterminate verdict.",
+    "differentiator_is_substantive": true,
+    "kill_recommendation": false,
+    "notes": "Steady overlaps the audience and broad exercise-guidance problem, but its supplied mechanism is pose tracking. Ready-Window Routine shares substantial session infrastructure and demo setup; the decisive distinction is trace-based diagnosis versus future scheduling. No supplied set of existing projects establishes the kill threshold."
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "idea_id": "concept-001",
+    "parent_ids": [],
+    "opportunity_id": "opp-001",
+    "mechanism_id": "m01",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-002",
+    "parent_ids": [],
+    "opportunity_id": "opp-002",
+    "mechanism_id": "mechanism_05",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-003",
+    "parent_ids": [],
+    "opportunity_id": "opp-003",
+    "mechanism_id": "mechanism-10",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-004",
+    "parent_ids": [],
+    "opportunity_id": "opp-004",
+    "mechanism_id": "mechanism-15",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-004-5",
+    "parent_ids": [],
+    "opportunity_id": "opp-004",
+    "mechanism_id": "mechanism-022",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-005",
+    "parent_ids": [],
+    "opportunity_id": "opp-005",
+    "mechanism_id": "m03",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-006",
+    "parent_ids": [],
+    "opportunity_id": "opp-006",
+    "mechanism_id": "mechanism_07",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-007",
+    "parent_ids": [],
+    "opportunity_id": "opp-007",
+    "mechanism_id": "mechanism-12",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-009",
+    "parent_ids": [],
+    "opportunity_id": "opp-009",
+    "mechanism_id": "mechanism-18",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-010",
+    "parent_ids": [],
+    "opportunity_id": "opp-010",
+    "mechanism_id": "mechanism-024",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-011",
+    "parent_ids": [],
+    "opportunity_id": "opp-011",
+    "mechanism_id": "mechanism_04",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-012",
+    "parent_ids": [],
+    "opportunity_id": "opp-012",
+    "mechanism_id": "mechanism-09",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-013",
+    "parent_ids": [],
+    "opportunity_id": "opp-013",
+    "mechanism_id": "mechanism-15",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-014",
+    "parent_ids": [],
+    "opportunity_id": "opp-014",
+    "mechanism_id": "mechanism-021",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-015",
+    "parent_ids": [],
+    "opportunity_id": "opp-015",
+    "mechanism_id": "m02",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-016",
+    "parent_ids": [],
+    "opportunity_id": "opp-016",
+    "mechanism_id": "mechanism_06",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-017",
+    "parent_ids": [],
+    "opportunity_id": "opp-017",
+    "mechanism_id": "mechanism-12",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-018",
+    "parent_ids": [],
+    "opportunity_id": "opp-018",
+    "mechanism_id": "mechanism-17",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-019",
+    "parent_ids": [],
+    "opportunity_id": "opp-019",
+    "mechanism_id": "mechanism-023",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-020",
+    "parent_ids": [],
+    "opportunity_id": "opp-020",
+    "mechanism_id": "m04",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-021",
+    "parent_ids": [],
+    "opportunity_id": "opp-021",
+    "mechanism_id": "mechanism-09",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-022",
+    "parent_ids": [],
+    "opportunity_id": "opp-022",
+    "mechanism_id": "mechanism-14",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-023",
+    "parent_ids": [],
+    "opportunity_id": "opp-023",
+    "mechanism_id": "mechanism-19",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-024",
+    "parent_ids": [],
+    "opportunity_id": "opp-024",
+    "mechanism_id": "m01",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-025",
+    "parent_ids": [],
+    "opportunity_id": "opp-001",
+    "mechanism_id": "mechanism_06",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-026",
+    "parent_ids": [],
+    "opportunity_id": "opp-002",
+    "mechanism_id": "mechanism-11",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-027",
+    "parent_ids": [],
+    "opportunity_id": "opp-003",
+    "mechanism_id": "mechanism-16",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-028",
+    "parent_ids": [],
+    "opportunity_id": "opp-004",
+    "mechanism_id": "mechanism-022",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-029",
+    "parent_ids": [],
+    "opportunity_id": "opp-004",
+    "mechanism_id": "m04",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-030",
+    "parent_ids": [],
+    "opportunity_id": "opp-005",
+    "mechanism_id": "mechanism-08",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-031",
+    "parent_ids": [],
+    "opportunity_id": "opp-006",
+    "mechanism_id": "mechanism-13",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "concept-032",
+    "parent_ids": [],
+    "opportunity_id": "opp-007",
+    "mechanism_id": "mechanism-18",
+    "mutation_round": 0,
+    "mutation_target": "initial_cross",
+    "mutation_notes": ""
+  },
+  {
+    "idea_id": "mut-r1-01-description-patch",
+    "parent_ids": [
+      "concept-001"
+    ],
+    "opportunity_id": "opp-007",
+    "mechanism_id": "m04",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: write a verified correction into the workflow",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-02-one-step-ahead",
+    "parent_ids": [
+      "concept-002"
+    ],
+    "opportunity_id": "opp-009",
+    "mechanism_id": "mechanism-10",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: schedule the next bounded action",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-03-resume-interlock",
+    "parent_ids": [
+      "concept-003"
+    ],
+    "opportunity_id": "opp-010",
+    "mechanism_id": "mechanism-17",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: block an unsafe transition with evidence",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-04-screening-replay-bench",
+    "parent_ids": [
+      "concept-004"
+    ],
+    "opportunity_id": "opp-011",
+    "mechanism_id": "m01",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: run a reproducible validation test",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-05-description-cache-steward",
+    "parent_ids": [
+      "concept-004-5"
+    ],
+    "opportunity_id": "opp-012",
+    "mechanism_id": "mechanism_07",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: reallocate a constrained resource",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-06-routine-contract-review",
+    "parent_ids": [
+      "concept-005"
+    ],
+    "opportunity_id": "opp-013",
+    "mechanism_id": "mechanism-14",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: open a review task containing the minimal conflict set",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-07-evidence-handoff-ledger",
+    "parent_ids": [
+      "concept-006"
+    ],
+    "opportunity_id": "opp-014",
+    "mechanism_id": "mechanism-022",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: update a provenance record",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r1-08-routine-change-trial",
+    "parent_ids": [
+      "concept-007"
+    ],
+    "opportunity_id": "opp-015",
+    "mechanism_id": "mechanism_04",
+    "mutation_round": 1,
+    "mutation_target": "empty action region: trigger a counterfactual comparison",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-01-description-patch-desk",
+    "parent_ids": [
+      "concept-001"
+    ],
+    "opportunity_id": "opp-015",
+    "mechanism_id": "mechanism_06",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: write a verified correction into the workflow",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-02-ready-window-routine",
+    "parent_ids": [
+      "concept-002"
+    ],
+    "opportunity_id": "opp-016",
+    "mechanism_id": "mechanism-13",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: schedule the next bounded action",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-03-departure-interlock",
+    "parent_ids": [
+      "concept-003"
+    ],
+    "opportunity_id": "opp-017",
+    "mechanism_id": "mechanism-021",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: block an unsafe transition with evidence",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-04-screening-regression-lab",
+    "parent_ids": [
+      "concept-004"
+    ],
+    "opportunity_id": "opp-018",
+    "mechanism_id": "m04",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: run a reproducible validation test",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-05-description-reserve",
+    "parent_ids": [
+      "concept-004-5"
+    ],
+    "opportunity_id": "opp-019",
+    "mechanism_id": "mechanism-10",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: reallocate a constrained resource",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-06-routine-conflict-desk",
+    "parent_ids": [
+      "concept-005"
+    ],
+    "opportunity_id": "opp-020",
+    "mechanism_id": "mechanism-17",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: open a review task containing the minimal conflict set",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-07-evidence-handoff-ledger",
+    "parent_ids": [
+      "concept-006"
+    ],
+    "opportunity_id": "opp-021",
+    "mechanism_id": "m01",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: update a provenance record",
+    "mutation_notes": "Changed at least two structural dimensions."
+  },
+  {
+    "idea_id": "mut-r2-08-compare-before-resuming",
+    "parent_ids": [
+      "concept-007"
+    ],
+    "opportunity_id": "opp-022",
+    "mechanism_id": "mechanism_07",
+    "mutation_round": 2,
+    "mutation_target": "empty action region: trigger a counterfactual comparison",
+    "mutation_notes": "Changed at least two structural dimensions."
+  }
+]

@@ -1,0 +1,3400 @@
+[
+  {
+    "candidate_id": "concept-001",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (For a short, authored clip, enumerate placements of prerecorded description variants within annotated quiet windows. Enforce no dialogue overlap, description precedence, and event-specific delivery deadlines. Maximize explicitly prioritized context coverage. Exhaustive search over the small fixture establishes the best feasible assignment; when essential context cannot fit, identify the conflicting duration/window constraints and offer a user-permitted pause rather than silently dropping it.), produce the result (Play descriptions in the selected windows; when necessary, ask the viewer to approve a brief playback pause to hear otherwise unschedulable context.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the accepted platform, audible dialogue and descriptions, the computed placement timeline, a deliberately infeasible variant, explicit pause consent, and a playback trace confirming the repaired sequence.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-operated accessible playback with a substantive constraint scheduler. No mini challenge assumed.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-002",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Model one seated movement as preparation, readiness confirmation, movement start, return confirmation, and rest. Evaluate bounded temporal rules such as readiness preceding start, return preceding the next repetition, and stop preventing subsequent coaching until explicit reset. Preserve per-source event order; uncertain cross-source ordering or missing confirmations yields indeterminate. For violated rules, remove irrelevant events while retaining the violation and display the resulting minimal witness.), produce the result (Pause the routine and replay the specific instruction associated with the violated rule; request confirmation when evidence is incomplete. Honor a remote stop immediately.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Run a live remote-confirmed sequence, then replay labeled fixtures. Show satisfied, violated, and indeterminate results; highlight the minimal violating events and matching instruction; demonstrate that stop blocks further coaching until reset.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a readable, remote-operated coaching flow with temporal verification and targeted replay. The scope addresses procedural execution and uncertainty; it does not claim fall prevention or validated physical-form assessment.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-003",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent a six-step packing routine as a state machine with confirmed, unknown, and incomplete states. Enumerate plausible states for unknown steps, replay three recovery policies with shared scripted disturbances, and compare repeated actions and unmet prerequisites. Report ranges across plausible states separately from variation caused by disturbances. Reject interventions outside the authored model.), produce the result (Ask the highest-value verification question, update the checklist from the answer, and guide the user through the next incomplete step.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display initial state, identical disturbance IDs, policy traces, repeated-action counts, unmet prerequisites, and the revised next step after a user correction. Include an automated fixture check that paired policies receive identical disturbances.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning entrant-built simulated Alexa+ experience. The substantive interaction is conversational recovery supported by an executable comparison engine.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-004",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Build an acyclic graph from answer records and versioned illustrative rules to screening results and preparation tasks. Hash normalized inputs and record transformation versions. On an answer correction, traverse descendants, immediately mark affected outputs stale, then recompute them in dependency order. Preserve unrelated outputs and expose a lineage explanation for each change.), produce the result (Ask only newly necessary questions and produce an updated preparation checklist with supported, changed, and unresolved items.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show before-and-after graph states, the exact affected descendant set, stale flags before recomputation, preserved unrelated outputs, and the resulting follow-up question. Run mutation fixtures against independently specified expected affected sets.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working simulated conversational experience that maintains a screening session, handles corrections, and completes an evidence-linked preparation workflow.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-004-5",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent authored descriptions as actions with measured audio durations, earliest reveal times, latest useful times, and importance weights. Dialogue intervals are forbidden narration windows. Enumerate feasible placements and permitted shorter variants, minimizing explicit omission, shortening, and delay costs. For the small fixture, exhaustive search proves minimum cost relative to the modeled choices. Return infeasible when essential descriptions cannot fit; never silently relax dialogue protection or spoiler constraints.), produce the result (Play the repaired narration schedule alongside the local video; when no compliant schedule exists, offer a remote-controlled pause-and-describe action.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display initial and repaired schedules, explicit repair costs, and the exhaustive-search result. During actual playback, log narration and dialogue intervals and demonstrate zero scheduled overlaps for the fixture, plus explicit infeasibility and pause recovery.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a remote-operated accessibility workflow running on Fire OS and demonstrated on an accepted emulator. No mini challenge is planned.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-005",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Monitor timestamped routine events against authored step transitions and timing contracts. Distinguish confirmed completion, observed transition violations, and indeterminate progress. If the session advances past a required confirmation, return the smallest observed event subsequence proving that transition violation. Missing telemetry produces indeterminate status. Remote confirmations establish reported progress only, never movement quality or physical safety.), produce the result (Offer one large remote-selectable action to replay the unconfirmed step, resume from the last confirmed step, or explicitly skip it.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show a normal confirmed transition, an advance without confirmation, and a deliberately incomplete trace. Display their different verdicts, the minimal witness for the observed violation, and a remote action that restores a known session position.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: large-screen routine recovery with simple remote navigation on Fire OS. It addresses progress uncertainty, not form assessment or fall prevention. No mini challenge is planned.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-006",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent applicant facts, illustrative program rules, assessment results and preparation tasks as an acyclic dependency graph. Version each input; propagate changes or expiration through its dependent closure; recompute affected results in topological order. Missing or expired evidence produces an unresolved result rather than an affirmative assessment. Content digests identify versions without asserting their truth.), produce the result (Generate an updated preparation checklist identifying which answer to reconfirm, which document to replace and which assessment remains unresolved; let the user acknowledge each repair.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display input versions, dependency edges, affected result IDs and the revised checklist together. A bundled test oracle checks that every reachable dependent is invalidated, no unrelated task is reset, and expired required evidence blocks readiness.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working entrant-built conversational simulation. The substantial contribution is maintaining an evidence-linked preparation workflow across corrections, rather than answering a single eligibility question.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-007",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Implement a small finite-state model for a household packing routine. Replay each recorded or fixture interruption sequence from identical initial states under three policies, sharing exogenous changes such as an item being removed. Regenerate policy-dependent questions and actions within each replay. Compare repeated steps, confirmation burden and unresolved prerequisites; vary context-change frequency and memory reliability to expose where the preferred policy changes.), produce the result (Offer the next packing action with the prerequisite that justified it, ask the user to confirm uncertain state, and persist the resulting checkpoint for the next interruption.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show synchronized policy timelines with identical initial state and exogenous event IDs, alongside repeated-step counts, confirmation counts and unresolved prerequisites. Expose each policy-generated action and let judges rerun the same scenario or alter one assumption.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through an entrant-built conversational simulation that completes a pause, context correction and resume workflow. Paired replay supplies a substantive mechanism beyond routine reminders.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-009",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent each description as alternative authored phrases with measured speech durations, an earliest useful time, and a latest useful time. Treat dialogue exclusion, description ordering, and complete delivery of essential cues as hard constraints. Assign explicit integer costs to shortening optional detail, delaying within the useful window, and inserting a viewer-approved playback pause. Enumerate the small candidate schedule space, identify conflicting constraint subsets, and select the lowest-cost permitted relaxation. If essential descriptions cannot fit without an unapproved pause, report infeasibility and request permission. Claims of optimality apply only to this bounded, exhaustively enumerated model.), produce the result (Play each selected description in a dialogue-free interval; when necessary, ask the viewer to approve a brief pause that makes an essential description feasible.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Export planned and actual narration intervals alongside dialogue intervals. For the bundled case, show zero overlap with annotated dialogue, delivery of every essential cue within its modeled useful window, and exhaustive comparison of the permitted candidate schedules. Report measured playback timing rather than assuming exact synchronization.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: an accessibility playback application running on Fire OS with remote-accessible controls. Its contribution is constrained description delivery, rather than a basic media player.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-010",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Monitor timestamped acknowledgments and corrections against a small routine contract: for example, checking the destination must precede selecting the corresponding key, and closing the bag creates an obligation to confirm the key within a stated interval. Track satisfied, violated, and unresolved obligations. Advance an event-time watermark only under the fixture's declared lateness bound; propagate timestamp uncertainty and leave missing observations unresolved. For a violated rule, enumerate trace fragments to find the shortest sufficient witness within this bounded trace. Acknowledgments establish reported completion, not physical verification.), produce the result (On 'resume packing,' state the last supported checkpoint, explain one pending or contradicted obligation, and request the specific confirmation or corrective step needed to continue.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the conversation beside timestamped reported events, watermark, obligation verdicts, and highlighted witness. Replay identical traces to reproduce identical next actions. Show that an omitted observation stays unresolved and a deadline violation appears only after the deadline plus allowed lateness, accounting for timestamp uncertainty.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through an entrant-built working simulated assistant experience. Multi-turn corrections lead to a concrete resumption action supported by temporal evidence.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-011",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent answers, versioned screening rules, document requirements, and checklist items as a directed acyclic graph. Fingerprint each derived item from its dependencies. An answer or rule revision invalidates affected descendants, recomputes only that subgraph, and records why each result changed. Unknown inputs produce unresolved results rather than eligibility conclusions.), produce the result (Produce a revised application-preparation checklist with changed items, their supporting answers, and an exportable record of unresolved questions for a benefits adviser.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display changed input, invalidated nodes, recomputed outputs, retained unaffected nodes, and an explanation path. Include a test report comparing incremental and full results after each fixture edit, including a rule-version change.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning entrant-built conversational simulation. Context persists across corrections and the workflow ends in a usable preparation artifact.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-012",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Execute a small trip state machine under baseline and candidate action policies using identical sampled exogenous border and service delays. Regenerate policy-dependent departure and arrival states for each policy. Calculate paired differences in departure readiness, missed return-load windows, and resource use; expose counterexample trajectories and sensitivity to uncertain parameters.), produce the result (Export a dispatcher review card identifying the proposed first intervention, its modeled tradeoffs, and the conditions that would reverse the preference. Leave dispatch authorization with the operator.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show both policies receiving the same disturbance IDs, their independently generated state transitions, the paired outcome table, and a trace that explains a missed return-load window. Change one cutoff and visibly recompute the result. Label all inputs and outcomes as synthetic model results.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning conversational simulation that supports stateful policy comparison, corrections, trace inspection, and an exported intervention review card.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-013",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent descriptions as reviewed text with event time, earliest useful delivery, deadline, priority, and measured speech duration. Replay an immediate-delivery baseline and a gap-aware schedule while holding dialogue intervals and playback interruptions fixed. Measure dialogue overlap, missed description deadlines, and added pause time. Sweep speech-duration uncertainty and report when the preferred schedule changes. Check predicted timing against a held-out playback trace; these comparisons establish scheduling behavior, not viewer comprehension.), produce the result (Play the selected description in a suitable gap; when no feasible gap exists, offer a remote-controlled pause-and-describe action.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display baseline and intervention timelines alongside actual playback logs. Report overlap duration, missed deadlines, added pause time, and prediction error for the identical clip and disturbance trace; show the infeasible-gap fallback.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: an accessible, remote-operated viewing interaction running on Fire OS, with substantive timing computation beyond a basic player.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-014",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Compile a five-step packing routine into stateful rules: prerequisites precede completion, removing an item invalidates its packed state, and finishing requires all required items confirmed. Track satisfied, violated, and unresolved status. Preserve explicit unknowns when evidence is missing. For each violation, retain the smallest relevant event set within a bounded routine session. Use sequence numbers for local ordering and mark imported events with overlapping clock bounds unresolved.), produce the result (Answer 'Where was I?' with one evidence-backed next action, ask a targeted question for unknown state, and update the remaining routine after the user's confirmation.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Expose the event ledger and monitor state beside the conversation. Replay a valid completion, an invalidated item, a missing confirmation, and uncertain ordering; show the corresponding next action, minimal witness, or clarification request.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through the expressly permitted working simulation path. A multi-turn assistant completes routine reconstruction and confirmation rather than providing single-turn advice.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-015",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent answers, versioned screening rules, conclusions, and checklist items as an acyclic dependency graph. Hash each derived node's inputs and rule version. After an answer changes, invalidate and recompute only descendants; display the evidence path and fresh, stale, or unverifiable status. Missing answers produce unknown outcomes rather than assumed facts.), produce the result (Export a revised preparation checklist showing changed items, retained answers, unresolved questions, and the rule provenance behind each item.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the original graph, one corrected answer, the invalidated descendants, the revised checklist, and an unchanged artifact identity. Compare incremental results with a full recomputation and replay the saved manifest.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning entrant-built simulation with source code and a complete conversational correction-to-checklist workflow.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-016",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-4086cadfdf8d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-4086cadfdf8d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Enumerate short photo-story schedules with explicit durations, contributor availability, per-photo permission, and host-pinned moments. Enforce hard constraints and minimize a ledger of changed positions, dropped moments, and optional contributor-balance penalties, all expressed in declared preference points. Exhaustive search over a capped fixture proves the minimum; infeasible cases return a verified conflicting subset without claiming minimality.), produce the result (The host accepts the repaired sequence using the Fire TV remote and starts the catch-up, with a readable explanation of each edit.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the original schedule, changed attendance constraint, repaired schedule, hard-constraint validation, and edit-cost ledger on the TV. For the six-moment fixture, show the exhaustive-search minimum. Follow with an infeasible fixture and its conflicting constraints.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a remote-operated, readable shared-screen planning and playback application running on Fire OS through an accepted emulator or actual device.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-017",
+    "passed": false,
+    "results": [
+      {
+        "gate": "specific_track_fit",
+        "status": "fail",
+        "reason": "Unresolved primary-track declaration: Fire TV: a shared household decision followed by actual large-screen playback, controlled entirely through remote navigation.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-018",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Compile a small routine definition into state machines. Process timestamped, uniquely identified confirmations with explicit duplicate and simultaneous-event policies. Maintain satisfied, violated, or unresolved verdicts; close deadline decisions only after a configured lateness window. For violations, compute a minimal explanatory event subsequence within the bounded trace.), produce the result (The user confirms the outstanding prerequisite or repeats an expired step, then continues from the newly verified resume point.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the raw timestamped trace beside monitor verdicts and the current next action. Replay the same trace with different arrival order within the lateness bound and verify identical finalized verdicts. Display the minimal witness when the joining deadline is violated.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ through the explicitly permitted working simulation path: a conversational resume interaction drives a stateful routine monitor and completes the recovery workflow.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-019",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent dialogue intervals, authored description durations, visual-event deadlines, and playback position as a small state-transition model. Replay immediate and gap-aware scheduling against the same initial position and disturbance events keyed by clip timestamp and causal role. Compute paired differences in dialogue-overlap duration, missed description deadlines, and added playback time. Repeat across assumed narration durations and timing offsets; report results as model-specific tradeoffs.), produce the result (The viewer selects a scheduling policy with the remote; the Fire TV application plays the clip and schedules prerecorded descriptions, offering an explicit pause-and-describe fallback when no suitable gap exists.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Record actual playback alongside timestamped scheduler events. Show overlap milliseconds, description lateness, added playback time, matched disturbance identifiers, and the first divergent transition. Include one infeasible case.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-operated accessible playback with an inspectable scheduling mechanism, demonstrated on Fire OS hardware or an accepted emulator. No mini challenge is assumed.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-020",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Hash normalized source records and key derived nodes by source hashes, transformation version, parameters, and evaluation time where relevant. Declare dependencies for document validity, maintenance clearance, assignment readiness, and return availability. On change or withdrawal, mark descendants stale, recompute them in dependency order, preserve unaffected nodes, and expose evidence paths. Missing evidence produces unknown readiness rather than an inferred clearance.), produce the result (In a working simulated Alexa+ conversation, the dispatcher asks what changed, inspects the affected assignment, and confirms a local hold with a named missing item and responsible role.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show before/after readiness, the changed source hash, affected-node set, recomputation counts, an unchanged branch, and persisted hold state. Compare selective results with a full recomputation and label all records synthetic.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through the explicitly permitted entrant-built simulated experience. A contextual conversation completes evidence review and a confirmed dispatch action without gated partner tooling.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-021",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Monitor timestamped dialogue intervals, curated visual-event deadlines, narration playback acknowledgements, and player discontinuities. Enforce invariants that narration must not overlap protected dialogue, must describe an event before its relevance deadline, and must be invalidated after a seek changes context. Evaluate admissible orderings within explicit timing uncertainty; return satisfied, violated, or indeterminate with a minimal trace. Retain only the current playback segment and bounded recent events. Missing acknowledgements remain unknown rather than proof that narration was heard.), produce the result (Play a queued description during a verified gap; if no safe gap remains, offer a remote-accessible pause-and-describe action, then resume from the saved position.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the same fixture with an unsafe baseline schedule and the monitored schedule. Export actual narration and dialogue intervals, verdicts, timing assumptions, and the seek invalidation trace. Verify zero protected-dialogue overlap for the demonstrated monitored cases, with uncertain boundary cases explicitly reported.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a functioning Fire OS application with remote navigation, audio playback coordination, and a device-appropriate accessibility workflow.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-022",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Implement an explicit structural model for one clearly fictional benefit program. Separate immutable circumstances, unknown facts, evidence availability, screening status, and application completion. Enumerate a bounded set of permitted actions with user-confirmed effort costs; propagate their specified effects and minimize total cost subject to the target screening predicate and feasibility constraints. Evaluate candidates across modeled uncertainty scenarios. Unknown facts branch into possible values rather than becoming favorable assumptions. Report exact enumeration bounds, tied plans, conditional results, or infeasibility.), produce the result (Create a user-confirmed checklist linking each permitted action to the fact it resolves and the subsequent application obligation; update the screening explanation when the user corrects a fact.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Expose the finite candidate-action table, costs, rejected constraints, model version, and before/after screening states. Show a conversation correction recomputing the plan, a document action leaving underlying circumstances unchanged, and a case with no feasible permitted intervention.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through the expressly permitted working simulation route: a multi-turn assistant completes screening clarification, constrained planning, correction, and checklist generation.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-023",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-1a8eddf9e1c0",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Build an acyclic dependency graph for one assignment covering vehicle clearance, an operator-defined document checklist, and return-trip availability. Fingerprint versioned records and rule configuration. When a record changes, expires, or is withdrawn, traverse its descendants, invalidate affected claims, and recompute only those claims. Missing evidence produces unresolved status rather than clearance. Display the evidence versions and next required action for every blocker.), produce the result (Create a local dispatcher task naming the missing or withdrawn item, its responsible role, and the claim it blocks; after replacement evidence is supplied, rerun the affected checks and require dispatcher acknowledgment.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show evidence version IDs, graph edges, recomputation counters, the blocked dispatch state, the generated task, and restoration after replacement evidence. Include a withdrawal assertion proving that no active readiness claim references the withdrawn record.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through an entrant-built, functioning conversational simulation. The contribution is evidence-aware revision of a consequential decision and completion of its follow-up task.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-024",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent a six-step household outing-packing routine as a deterministic state machine with explicit user-confirmed completion. Define bounded disturbances such as interruption between instruction and confirmation, duplicate confirmation, delayed confirmation, correction, and a changed outing destination. Enumerate short disturbance sequences against the resume policy, minimize discovered failure traces, and replay them. Refine the policy with step identifiers, state revisions, and targeted reconfirmation, then rerun the same search.), produce the result (On return, present the last confirmed step, ask one targeted question where state is uncertain, and guide the user through the next valid action to an explicitly confirmed completed routine.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the minimized event trace, violated baseline invariant, state revisions, and identical replay under the revised policy. Report the actual number of traces tested, search bounds, and remaining violations; show a user completing the resumed routine.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working simulated conversational experience. Interruption-aware state recovery completes a specific household workflow, while the simulator makes failure and improvement inspectable.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-025",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (For a short, manually annotated clip, represent each description with a duration, earliest useful time, latest meaningful time, and essential/optional priority. Search discrete candidate placements subject to dialogue exclusions and description precedence. If essential descriptions cannot fit, enumerate the conflicting requirements and test bounded repairs such as an authored shorter version or a viewer-authorized pause. Exhaustive enumeration establishes feasibility only for this small modeled clip.), produce the result (Play the feasible narration schedule on Fire TV, or ask the viewer to authorize a specific pause when essential context cannot fit.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display and log computed placements alongside actual playback timestamps. Demonstrate no scheduled narration overlapping annotated dialogue in the feasible case, then a reproducible conflicting set and a viewer-authorized repair. These are fixture-level scheduling results, not evidence of improved comprehension.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: the large-screen playback and remote-driven repair interaction are integral to the accessibility workflow. No mini challenge is assumed.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-026",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-234715149258",
+          "src-41e7f619fb22",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Use a finite-state model of one authored routine: preparation acknowledged, repetition reported, rest started, rest completed, and stop requested. Evaluate temporal invariants over the recorded session horizon using a local monotonic clock. Missing confirmations produce indeterminate verdicts. For a violation, remove irrelevant events while rerunning the evaluator to obtain a subset-minimal ordered trace preserving that violation; do not claim globally shortest traces.), produce the result (Pause progression and show or speak the exact missing confirmation or incomplete rest interval, with remote actions to replay instructions, acknowledge an omitted event, or end the session.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Replay three labeled traces over the displayed session horizon: a complete sequence, an early-next-set violation, and a missing-confirmation indeterminate result. Show the live TV interaction producing the same verdicts and corrective actions. Verify that removing either necessary event from the displayed counterexample eliminates that specific violation.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: readable distance UI, remote interaction, audible prompts, and instruction replay support a focused home routine. The concept addresses sequence uncertainty within opp-002, not movement-form assessment.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-027",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Store a directed acyclic graph of steps, prerequisite facts, user confirmations, content digests, and instruction versions. When a fact changes, invalidate only dependent confirmations and generate a dependency-ordered recheck plan. Digests establish recorded integrity, not whether the physical work was performed correctly.), produce the result (The simulated Alexa+ assistant asks the user to verify the first affected prerequisite, records the answer, and advances to the next valid action.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the graph before and after one correction, the exact affected descendant set, preserved confirmations, and the next verification prompt. Reload the application to demonstrate persistence.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working entrant-built conversational simulation. The substantive feature is selective recovery after a changed prerequisite.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-028",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent confirmed packing state, task prerequisites, estimated durations, and a departure deadline. Replay the original and alternative task orders from identical states using identical seeded interruption and item-search delays. Report paired completion-time differences, unfinished required items, and sensitivity to duration assumptions; label results as model estimates.), produce the result (The user selects a proposed restart order; the simulated Alexa+ assistant starts its first task and updates the remaining plan after a completion or correction.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show identical starting state and disturbance identifiers for both plans, task-level traces, unfinished required items at departure, and a replay after editing one duration. Finish by recording completion of the selected plan's first task.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working conversational simulation that compares alternatives and follows through into task execution.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-029",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent each authored description as an action with duration, earliest reveal time, latest useful time, and permitted shorter alternatives. Treat dialogue intervals, spoiler boundaries, and complete coverage of designated essential events as hard constraints. Exhaustively search a small candidate schedule for the lowest explicit edit cost across moving, shortening, or pausing playback. Return infeasibility when no permitted repair exists. Report optimality only within this finite modeled candidate set.), produce the result (Fire TV plays the repaired narration schedule, briefly pausing the film when essential descriptions cannot fit without obscuring dialogue.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the initial conflicting intervals, computed edit list and total cost, actual narrated playback, and timestamp logs. Check dialogue overlap, reveal-time compliance, and essential-event coverage against fixture ground truth; show infeasibility when pauses are prohibited.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a working accessible viewing interaction whose substantive computation determines how descriptions execute alongside playback.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-030",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Monitor timestamped playback and explicit remote confirmations against a small routine state machine: instructions presented, readiness acknowledged, step started, completion reported, and session paused. A configured readiness timeout produces a violation of the interaction contract. Missing confirmation produces an indeterminate completion verdict. Extract a minimal observed witness for each violation and preserve unknown states across interruption and restart.), produce the result (Fire TV offers a large, spoken resume prompt that lets the viewer confirm completion, replay the current instruction, or end the session.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the actual event trace beside each verdict. Restart after an unconfirmed step and demonstrate an indeterminate result, trigger a readiness timeout with a minimal witness, and confirm that resolving the prompt updates the session map without inventing completed movement.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-first session continuity and evidence-aware progress for an exercise viewing workflow.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-031",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent answers, illustrative program conditions, derived assessments, and checklist actions as an acyclic dependency graph. Version each source and record dependency edges. When an answer changes or a source expires, invalidate its descendant closure, recompute affected nodes in topological order, and preserve independent completed work. Distinguish changed, unresolved, and still-supported actions; a content digest verifies identity, not policy correctness.), produce the result (Produce a revised preparation checklist with one next question or document request, the reason it changed, and an exportable summary.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show source-version identifiers and before/after node states. For the bundled scenario, compare computed invalidation against an explicit expected descendant set, demonstrate preservation of an unrelated completed document, and show an expired policy preventing a supported conclusion.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through the permitted entrant-built working simulation. The complete conversational correction-to-checklist loop goes beyond a single-turn answer.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "concept-032",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Maintain an event log of checklist confirmations and interruptions. Replay both policies from identical initial states with matched external disturbance schedules, such as another person removing a packed item. Regenerate policy-dependent questions, confirmations, and timing through a small transition model. Compare redundant checks and unchecked required items, then vary uncertainty about item changes to expose where selective resumption fails its stated safety threshold.), produce the result (Resume at a specific verification question, preserve stable completed steps, and issue a final packing checklist that requires confirmation of uncertain items.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display identical external event schedules for both policies, separately generated interaction traces, redundant-check counts, and unchecked required-item counts. Show a controlled adverse scenario and the assumption threshold that triggers broader verification. Report only results actually produced by the executable model.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working simulation that completes a stateful interruption-to-resumption workflow and explains its verification choices.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-01-description-patch",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (For one original clip, load annotated dialogue intervals, description durations, event deadlines, and a versioned cue sheet. Enumerate permitted placements for a selected faulty cue while holding other cues fixed. Check dialogue exclusion, precedence, and deadlines. Offer the smallest timestamp change among feasible candidates. After editor approval, validate the complete candidate sheet, atomically persist the corrected version, read it back, and revalidate it. Reject stale-version edits and leave infeasible sheets unchanged. Verification covers annotated timing constraints, not semantic description accuracy.), produce the result (Write the approved, constraint-checked timestamp correction into the application's active cue sheet and immediately use the persisted version for playback.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Capture the original collision, computed candidate, approval, persisted version before and after restart, interval-check result, and audible corrected playback. An infeasible edit must produce no write.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-operated accessibility editing with a working correction-and-playback loop on Fire OS. No mini challenge selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-02-one-step-ahead",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent one authored seated routine as instruction tasks with durations, prerequisite confirmations, participant-selected rest intervals, and an explicit session time budget. Derive eligible tasks from an ordered local event log; missing prerequisites block eligibility rather than imply completion. Enumerate start times for the next task and select the earliest feasible placement under explicit priorities. Persist a single pending action containing its instruction ID, prerequisites, due time, and expiry. Recheck prerequisites when it becomes due. Stop or cancellation invalidates the action; expiry requires renewed confirmation. If the action cannot fit, report the conflicting time budget and request permission before extending it.), produce the result (After participant approval, save and arm one in-session instruction appointment. At its due time, present a ready prompt; play only after fresh confirmation, then remove the completed appointment.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the persisted appointment, its prerequisite event IDs and time window, timer transitions, cancellation preventing playback, expiry preventing execution, and exactly one playback after fresh readiness confirmation. Use clearly labeled fixtures for exceptional cases.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a large-screen, remote-operated routine scheduler with persistent bounded actions and prerequisite checking. It addresses procedural pacing, not clinical effectiveness.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-03-resume-interlock",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent one authored craft routine as a finite-state machine. Store each prerequisite confirmation with its source, session revision, and invalidation triggers. An interruption invalidates designated workspace checks. Before advancing to the tool-use step, evaluate the prerequisite predicates against the current evidence revision. Unknown, conflicting, or invalidated evidence blocks advancement. Emit the failed predicates and their evidence history; atomically recheck the revision when committing an allowed transition.), produce the result (Block the simulated transition into tool use, explain which confirmations became invalid, and request the specific checks needed before advancing.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show state revision, evidence source and validity, failed guard, blocked transition log, rejected stale confirmation, and successful advancement after fresh checks. Include a fixture that changes state between guard evaluation and commit and verifies rejection.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working entrant-built simulated conversational experience that manages interruptions, invokes transition guards, and explains evidence requirements.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-04-screening-replay-bench",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Version two fictional program rule sets, normalized conversation transcripts, and an independently authored expectation manifest. Replay each transcript from a clean session against baseline and candidate versions. Compare resulting question paths, conclusions, and preparation tasks against explicit expectations. Check correction equivalence, irrelevant-answer invariance, and unresolved-input handling. Record input digests, engine version, rule version, execution parameters, and ordered events in a rerunnable result bundle. Report unexpected differences with a minimal failing transcript.), produce the result (Run a selected validation suite from the conversation and export a reproducible failure bundle identifying the script change and first divergent step for correction.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Export the exact transcript and rule digests, engine version, expected-versus-actual assertions, ordered events, and minimal failing transcript. Rerunning the unchanged bundle must reproduce the same semantic results; the deliberately faulty dependency must fail before correction.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning simulated conversational assistant that accepts a validation request, executes screening conversations, explains failures, and reruns corrected rules.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-05-description-cache-steward",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Model description bundles with measured byte sizes, film dependencies, user-assigned retention priorities, and explicit pins. Enumerate allocations for a small catalog under an application-owned byte budget. Minimize declared eviction and missing-description costs while preserving pins and complete bundle dependencies. Compare the candidate against every feasible allocation to establish optimality for the bundled instance. Report infeasibility when pinned bundles exceed capacity. Execute additions through staging space included in the capacity model, then atomically replace the allocation manifest; failed copies preserve the previous usable allocation.), produce the result (After remote confirmation, reallocate the application's constrained storage by evicting selected unpinned description bundles and copying selected replacement bundles from a local staging source.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show initial and final directory inventories, measured bytes including staging, explicit costs, exhaustive comparison, the committed manifest, and playback from the selected cache. Inject a copy failure and verify that the previous allocation remains playable.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track, with remote-operated allocation and actual local playback on Fire OS. No mini challenge selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-06-routine-contract-review",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Compile a three-step routine into a bounded transition model with explicit confirmation, ordering, and timeout semantics. Check whether each required target step is reachable within a declared horizon. For an unreachable target, enumerate subsets of the authored rules against fixed transition semantics and extract a minimum-cardinality subset that still prevents reachability; break ties deterministically. Include the fixed background assumptions and horizon in the result. Verify that every smaller subset permits a path. Missing or unsupported rule semantics produce indeterminate status rather than a conflict claim. Recheck against the routine version before creating a task.), produce the result (Open a persisted in-application review task containing the minimum conflict set, source rule IDs and versions, fixed assumptions, bounded reachability result, and suggested author decisions. Remote selection opens that task's detail view.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the routine version, fixed semantics, horizon, two conflicting source rules, and persisted task ID. Replay valid paths for every smaller subset, show blocked navigation with both rules, then edit one and demonstrate successful advancement. Restart the application and reopen the saved task.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: an on-device author preview and review workflow whose contract model governs the actual remote-operated routine player. No mini challenge selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-07-evidence-handoff-ledger",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.), produce the result (Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the before-and-after persisted ledger, supersession edge, actor confirmation and affected node IDs. A fixture oracle checks append-only history, stale-version rejection, exact dependent invalidation and survival across reload.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track using a working entrant-built conversational simulation that completes source inspection, correction confirmation and a persistent provenance update.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r1-08-routine-change-trial",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent one packing routine as a finite-state transition model. Let the organizer choose a baseline checkpoint rule and a proposed rule that adds a confirmation before a dependency-sensitive step. On an explicit comparison request, fork identical initial states and replay a small scenario set using matched exogenous interruption and item-removal events. Regenerate questions and actions separately for each policy. Report paired repeated-work, confirmation and unresolved-prerequisite differences, with a parameter sweep showing where the preferred rule changes. Keep scenario variation separate from model-assumption sensitivity.), produce the result (Trigger a persisted counterfactual comparison run from the conversational request, then save a decision card linking the baseline, proposed change, assumptions and reproducible paired traces; leave adoption to the organizer.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display comparison-run IDs, identical initial-state digests, matched external event IDs and independently generated actions. Verify identical policies yield zero paired differences, both policies encounter the same external disturbances, and a changed policy regenerates its own confirmations and actions.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working conversational simulation that translates a routine-change question into an executed comparison and an inspectable saved decision card.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-01-description-patch-desk",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Represent an authored clip's descriptions as versioned sidecar records with durations, delivery deadlines, precedence, and annotated dialogue exclusions. A remote-operated editor proposes moving one description or selecting an authored shorter variant. Check all affected invariants over the entire clip horizon. Missing timing annotations yield indeterminate and block verified status. Commit only a passing candidate using a revision check and atomic replacement; reread the persisted sidecar and verify it again. On rejection, show the conflicting intervals without modifying the active revision. Verification covers timing against supplied annotations, not description accuracy or completeness.), produce the result (Write the verified correction into the application's active description sidecar, reload playback from that revision, and retain an undo record.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Capture before/after audio, proposed and persisted intervals, rule verdicts, revision identifiers, a rejected candidate leaving storage unchanged, and corrected playback after restart.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a working remote-operated accessibility review and correction application running on Fire OS. No mini challenge selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-02-ready-window-routine",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (For one authored routine, enumerate candidate start times for the next instruction within a short explicit scheduling horizon. Inputs are the current routine step, confirmed completion events, routine-defined minimum rest, user-selected availability window, and stop state. Require predecessor confirmation, completed rest, and no active stop; missing confirmation blocks scheduling. Choose the earliest feasible slot under these hard constraints. If none exists, display the conflicting bounds and offer a user-approved wider availability window without relaxing routine prerequisites. Persist a single pending action with an expiry and revision token. At its due time, recheck prerequisites and present a readiness prompt; movement playback begins only after fresh remote confirmation. Expiry or stop cancels the pending action.), produce the result (Persist and arm one bounded next-instruction action. At the scheduled time, deliver a readiness prompt in the running Fire TV app, then play that instruction only after fresh confirmation.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show the input window and prerequisites, enumerated feasible slot or conflict, stored pending-action record, actual due-time readiness prompt, and event trace proving fresh confirmation precedes playback. Show expired, stopped, and duplicate triggers cannot start a second playback.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-operated routine scheduling and execution on Fire OS, with an explicit bounded-action state machine. No clinical or physical-form assessment claim and no mini challenge selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-03-departure-interlock",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Model a small departure routine with an explicit prerequisite for the simulated lock-and-leave transition. Store confirmations with session and state-version identifiers. Unknown, contradicted, or invalidated key evidence prevents transition authorization. Evaluate the guard and commit the simulated transition against the same state version; reject intervening changes. Return the violated prerequisite and its evidence history.), produce the result (Block the simulator's lock-and-leave command, explain the missing evidence, request a fresh key-possession confirmation, and permit the simulated transition only when its guard passes.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display state version, confirmation identifiers, invalidation event, guard result, rejected transition log, and subsequent successful commit. Include a direct-endpoint bypass check and a state-change-between-check-and-commit fixture.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working conversational simulation that maintains state and enforces an evidence-dependent action boundary.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-04-screening-regression-lab",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (For two fictional programs, execute versioned correction scripts through the conversational session engine. After each correction, compare incremental results with a separate full-recompute evaluator using identical normalized inputs and rule versions. Check independently authored expected outputs for boundary cases, stale-result exposure, and unaffected-output preservation. Canonically serialize the fixture bundle, versions, results, and event ordering so another run can reproduce the result.), produce the result (Run a selected validation suite from the conversation, return failing case identifiers and replayable transcripts, and export a reproducible validation bundle for the maintainer.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Export normalized inputs, rule and evaluator versions, fixture digest, ordered correction events, independent expected values, both evaluator outputs, and assertion results. Replay the bundle in a fresh process and compare canonical results, excluding incidental timestamps.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning conversational simulation that invokes validation tools, explains failures, and replays the same screening conversation.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-05-description-reserve",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-e551abd51f18",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Model each original video as requiring one compatible description pack selected from authored full and compact alternatives with measured byte sizes and declared event coverage. Enumerate pack assignments under the measured app storage budget, preserving all viewer-pinned essential-event requirements and minimizing explicit quality-loss and replacement costs. Report infeasibility when mandatory coverage cannot fit. For the small bundled instance, exhaustive enumeration establishes the minimum modeled cost.), produce the result (After remote confirmation, stage the selected replacement packs, verify their hashes and coverage manifests, atomically switch the active allocation, and delete superseded packs. Retain the previous allocation if staging fails.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show before/after measured bytes, pack identities and coverage, the enumeration result, successful asset commit, and offline playback. Include failed staging rollback and an infeasible pinned-coverage case. Budget reductions must be labeled as injected app limits.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: remote-operated offline accessibility asset management and actual playback on Fire OS. No mini challenges selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-06-routine-conflict-desk",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-751e301f958d",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Compile a three-step authored routine into finite transition and timing constraints. Decide whether any session trace can satisfy every rule. If inconsistent, enumerate constraint subsets by increasing cardinality and return a smallest unsatisfiable subset, with stable rule IDs and source locations. Verify satisfiability after removing each member. Missing timing definitions or unbounded semantics yield an indeterminate authoring result rather than an invented conflict. Runtime confirmation means reported progress only.), produce the result (Open and persist a local review task containing the minimum conflict set, linked routine fields, solver semantics, and a reproducible fixture. Let the facilitator edit a cited rule with the remote, rerun validation, and close the task only when the revised complete routine is satisfiable.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Expose rule IDs, the unsatisfiable subset, satisfiability of every smaller subset, and satisfying traces after individual member removals. Show the task actually persisted and opened on Fire OS, remote correction, whole-routine revalidation, a second-conflict case, and an indeterminate missing-definition case.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Fire TV primary track: a functioning remote-operated pre-session check and review workflow on Fire OS, followed by playback of the validated routine. No mini challenges selected.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-07-evidence-handoff-ledger",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-b13acf62a585",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Maintain versioned assertion records linked to document versions and explicit transformation identifiers. Stage an adviser-confirmed replacement source, validate references and expected record revision, compute the affected dependency closure, then atomically append the provenance revision and mark dependent assertions unresolved. Reject stale writes and dangling references. Preserve previous revisions; content digests establish identity, not truth.), produce the result (Update the case's provenance record with the confirmed source replacement, supersession reason and affected assertion IDs; return a durable revision receipt.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Display the old and new revision IDs, exact source-version edges, affected assertion IDs and durable receipt. Verify persistence after restart, rejection of stale writes, and all-or-nothing behavior when a staged source reference is invalid.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a functioning entrant-built simulated experience that conducts evidence inspection, clarification and confirmed provenance updates.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  },
+  {
+    "candidate_id": "mut-r2-08-compare-before-resuming",
+    "passed": true,
+    "results": [
+      {
+        "gate": "evidence_backed",
+        "status": "pass",
+        "reason": "At least one cited source was retrieved and verified",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "required_technology_fit",
+        "status": "pass",
+        "reason": "every mandatory technology/platform has a material implementation role",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "requirement_compliance",
+        "status": "pass",
+        "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "data_viability",
+        "status": "pass",
+        "reason": "Named data access is credible for the competition and concept",
+        "evidence_ids": [
+          "src-306f0d0e84ca",
+          "src-41e7f619fb22",
+          "src-234715149258",
+          "src-79e2639313c3"
+        ],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "delivery_feasible",
+        "status": "pass",
+        "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (On an explicit comparison request, snapshot the routine state and fork it into restart and prerequisite-check policies. Enumerate a small declared set of externally removed-item scenarios, preserving identical initial states and exogenous event IDs across each pair. Regenerate policy-dependent questions and packing actions separately. Report paired repeated-step counts, confirmation counts and unresolved prerequisites without collapsing them into an unexplained score. Recompute when the user changes one assumption.), produce the result (Trigger and persist a counterfactual comparison job from the conversation, then open its paired traces and assumption-specific outcome table.), then validate the required submission proof.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "demo_fit",
+        "status": "pass",
+        "reason": "Show a run ID, model version, initial-state digest, matched exogenous event IDs and separate policy-generated actions. Independently check outcome counts against the finite traces, rerun for identical results and exhibit a no-removal scenario where prerequisite checking adds confirmations.",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      },
+      {
+        "gate": "specific_track_fit",
+        "status": "pass",
+        "reason": "Declared track 'Alexa+ primary track through a working entrant-built simulated experience that interprets comparison requests, asks for assumptions, executes paired replay and explains the resulting traces.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track",
+        "evidence_ids": [],
+        "validator": "deterministic"
+      }
+    ],
+    "external_evaluation_scores": {
+      "evidence_quality": 1.0,
+      "feasibility": 1.0,
+      "core_depth": 1.0,
+      "actionability": 1.0,
+      "differentiation": 1.0
+    }
+  }
+]

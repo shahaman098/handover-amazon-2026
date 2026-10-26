@@ -1,0 +1,168 @@
+{
+  "id": "mut-r1-07-evidence-handoff-ledger",
+  "lane": "institutional",
+  "disciplines": [
+    "Operations research and causal inference"
+  ],
+  "working_title": "Handover",
+  "primary_user": "An applicant and community adviser reconciling corrected documents before handing over a draft application packet.",
+  "painful_workflow": "A helper replaces a document or corrects an extracted fact, but the preparation record does not distinguish the original assertion, its replacement, who confirmed it, and which conclusions still depend on the old version.",
+  "current_workaround": "Hypothesized workaround: annotate document filenames and explain corrections in messages. The supplied evidence does not validate this behavior or demand for collaborative handoffs.",
+  "imported_mechanism": "Parent: concept-006. Apply mechanism_07 to an append-only provenance ledger with explicit supersession and dependency invalidation. Structural changes include collaborative users, a document-reconciliation workflow, assertion-level data, and a provenance-record update as the terminal action.",
+  "mechanism_origin": "Operations research and causal inference",
+  "data_sources": [
+    "Generated fictional applicant, helper, document versions and assertion conflicts.",
+    "Generated rules for one explicitly fictional benefits program.",
+    "Supplied opp-006 evidence and repository description, used only as workflow inspiration."
+  ],
+  "core_computation": "Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only. Bound scope to an explicitly authored, inspectable graph. No automatic OCR or arbitrary dependency discovery. No authoritative benefits eligibility, causal inference, clinical, authenticated-identity or validated-impact claims. If dependency coverage is unknown, mark dependent draft answers unresolved and block ready-to-export status until reviewed.",
+  "last_mile_action": "Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.",
+  "visible_transformation": "Two conflicting document-derived assertions become an auditable supersession chain, with withdrawn conclusions and a durable receipt explaining who confirmed the correction and why.",
+  "sponsor_dependency": "Uses the supplied brief's simulation alternative. No gated Alexa+ toolkit, hardware, AWS credentials or paid model is assumed; AI coding tools support implementation of the bounded conversational agent.",
+  "technical_risk": "Incomplete assertion dependencies could leave stale conclusions valid; ambiguous speaker attribution could misrepresent confirmation. Keep two explicit simulated roles, a small acyclic graph, transactional writes and a visible confirmation step.",
+  "collision_risk": "unknown",
+  "why_now": "An October 22, 2026 repository description explicitly frames returning to a routine without starting over as a current objective.",
+  "kill_reason": "",
+  "killer_demo": "In the custom Alexa+-style client, say or type: \"That is my old payslip. Use the September document instead.\" For an ambiguous reference, ask the user which document. Show the exact replacement and affected draft answers, then ask confirmation. Commit it once, show affected answers withdrawn, retain unrelated ID evidence, export an updated packet, reload, and reject an outdated helper proposal. Use original synthetic documents. Label simulated roles and any bounded intent handling accurately.",
+  "hard_to_fake_advantage": "The append-only event history, transactional version check and independently recomputed dependency closure let judges verify the actual record mutation and detect silently overwritten history.",
+  "cluster_id": null,
+  "evidence_ids": [
+    "opp-006",
+    "mechanism_07",
+    "src-b13acf62a585",
+    "src-41e7f619fb22",
+    "src-234715149258",
+    "src-79e2639313c3"
+  ],
+  "opportunity_id": "opp-014",
+  "mechanism_id": "mechanism-022",
+  "mutation_history": [
+    "round 1: empty action region: update a provenance record"
+  ],
+  "track_fit": "Alexa+ primary track through an entrant-built conversational simulation. Plan a genuine self-hosted MCP server (spec 2025-11-25 or later over Streamable HTTP) with a custom web client if its first-hour integration spike succeeds. No real Alexa+ device or preview-console connection is claimed.",
+  "technology_roles": {
+    "Alexa+ working simulated experience": "The functioning conversational runtime resolves references to conflicting assertions, retrieves their source paths, requests applicant confirmation and invokes the persistent ledger update. Source code and executable demonstration establish the selected qualification route.",
+    "Conditional on Alexa+ entry: working Agent Skill, self-hosted MCP server using specification 2025-11-25 or later over Streamable HTTP, or a working simulated Alexa+ experience using any AI or agentic tool. The simulation alternative has no mandatory framework, SDK, or MCP interface.": "Conditional on Alexa+ entry: working Agent Skill, self-hosted MCP server using specification 2025-11-25 or later over Streamable HTTP, or a working simulated Alexa+ experience using any AI or agentic tool. The simulation alternative has no mandatory framework, SDK, or MCP interface. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation.",
+    "Conditional mandatory for Alexa+: demonstrate a working Agent Skill, a self-hosted MCP server using specification 2025-11-25 or later over Streamable HTTP, or a working simulated Alexa+ experience. The simulation alternative requires source code and a functioning demonstration but no specific SDK, framework, or MCP-shaped interface.": "Conditional mandatory for Alexa+: demonstrate a working Agent Skill, a self-hosted MCP server using specification 2025-11-25 or later over Streamable HTTP, or a working simulated Alexa+ experience. The simulation alternative requires source code and a functioning demonstration but no specific SDK, framework, or MCP-shaped interface. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation."
+  },
+  "requirement_satisfaction": {
+    "parent_id": "concept-006",
+    "primary-track": "Alexa+ primary track using a working entrant-built conversational simulation that completes source inspection, correction confirmation and a persistent provenance update.",
+    "alexa-path": "Conditional mandatory for Alexa+: demonstrate a working Agent Skill, a self-hosted MCP server using specification 2025-11-25 or later over Streamable HTTP, or a working simulated Alexa+ experience. The simulation alternative requires source code and a functioning demonstration but no specific SDK, framework, or MCP-shaped interface. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation.",
+    "working-project": "Plan for required condition: Mandatory: provide a working application newly created or significantly updated during the submission period. For an existing project, explain and demonstrate the qualifying changes.. Verify the exact submission evidence before finalizing the entry.",
+    "entry-register": "Complete registration and required Devpost fields by October 23, 2026 at 20:00 Europe/London. Live status is unverified.",
+    "entry-eligible": "Age, residence, conflicts, support restrictions and other eligibility conditions require entrant verification.",
+    "team-representative": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.), produce the result (Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.), then validate the required submission proof.",
+    "project-description": "Plan for required condition: Mandatory: submit a text description explaining project features, functionality, and operation.. Verify the exact submission evidence before finalizing the entry.",
+    "github-repository": "Plan for required condition: Mandatory: provide a GitHub repository containing all necessary source code, assets, and clear setup/run instructions. Use either a public repository with a detectable open-source license or a private repository shared with the specified Amazon and Devpost reviewers.. Verify the exact submission evidence before finalizing the entry.",
+    "private-reviewers": "Plan for required condition: Conditional mandatory for private repositories: share with Amazon reviewers knmeiss, giolaq, anishamalde, mosesroth, emersonsklar and the specified Devpost reviewer before the deadline. The supplied evidence redacts the Devpost email address; resolve it from the official source. Invitations require acceptance and expire after seven days.. Verify the exact submission evidence before finalizing the entry.",
+    "demo-video": "Show the before-and-after persisted ledger, supersession edge, actor confirmation and affected node IDs. A fixture oracle checks append-only history, stale-version rejection, exact dependent invalidation and survival across reload.",
+    "product-feedback": "Plan for required condition: Mandatory: for every tool, API, or SDK used, explain its purpose, strengths, shortcomings, onboarding experience, and whether and why the entrant would use it again.. Verify the exact submission evidence before finalizing the entry.",
+    "judge-access": "Plan for required condition: Mandatory: make the project available free of charge and without testing restrictions to sponsor, administrator, and judges through the judging period ending November 20, 2026 at 12:00 Pacific Time. Provide credentials for private websites when applicable. The FAQ permits a locally runnable repository and video without continuous hosting.. Verify the exact submission evidence before finalizing the entry.",
+    "english-materials": "Plan for required condition: Mandatory: provide submission materials in English or supply English translations, including the video, description, documentation, and testing instructions.. Verify the exact submission evidence before finalizing the entry.",
+    "rights-ownership": "Use original code and fictional documents, document dependency licenses and verify ownership and applicable authorization requirements.",
+    "unique-submissions": "Plan for required condition: Conditional mandatory when entering multiple submissions: each must be unique and substantially different from the entrant's other submissions.. Verify the exact submission evidence before finalizing the entry.",
+    "conditional-platform-and-mini-requirements": "Fire TV, Bee, Ring, Alexa+ nonsimulation runtime evidence, AWS Builder and Open Source mini-challenge requirements are inapplicable to the selected simulation-only entry.",
+    "fire-platform": "Conditional mandatory for Fire TV: run on Fire OS or Vega OS and show functioning software on an actual Fire TV device or accepted emulator/simulator. Framework choice is unrestricted. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation.",
+    "bee-real-data": "Create and bundle the complete fictional fixture and expected ledger transitions. No real applicant records or policy accuracy are assumed. Collaborative demand and real-policy deployment remain unvalidated.",
+    "ring-integration": "Conditional mandatory for Ring: use a documented Ring API, SDK, simulator, or device and demonstrate the application through an accepted simulator or actual device. Physical hardware is optional. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation.",
+    "runtime-evidence": "Conditional mandatory for Alexa+ nonsimulation, Bee, and Ring: repository code must actually use the qualifying technology through runtime calls, entry points, or loaded agent/flow/MCP configuration. README mentions alone do not qualify. Alexa+ simulations and Fire TV have their separately specified alternatives. is materially used in the core path: Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.. Removing it must materially change or break the required implementation.",
+    "aws-mini": "Uses the supplied brief's simulation alternative. No gated Alexa+ toolkit, hardware, AWS credentials or paid model is assumed; AI coding tools support implementation of the bounded conversational agent.",
+    "opensource-mini": "Plan for required condition: Conditional mandatory if entering Open Source: provide a new additional licensed open-source project or public-repository contribution made during the hackathon window alongside the primary-track submission. Include contribution URL, project repository URL, GitHub username, and what changed, how it works, and why it matters. An unmerged branch, fork, or PR is acceptable.. Verify the exact submission evidence before finalizing the entry.",
+    "artifact:Completed Devpost submission with primary-track and optional mini-challenge selections.": "Produce and validate the required submission artifact: Completed Devpost submission with primary-track and optional mini-challenge selections..",
+    "artifact:Text description of features and functionality.": "Produce and validate the required submission artifact: Text description of features and functionality..",
+    "artifact:GitHub repository with source code, assets, and setup/run instructions; public with open-source license or private with authorized reviewer access.": "Produce and validate the required submission artifact: GitHub repository with source code, assets, and setup/run instructions; public with open-source license or private with authorized reviewer access..",
+    "artifact:Public YouTube or Vimeo demo-video URL.": "Produce and validate the required submission artifact: Public YouTube or Vimeo demo-video URL..",
+    "artifact:Product feedback for every tool, API, or SDK used.": "Produce and validate the required submission artifact: Product feedback for every tool, API, or SDK used..",
+    "artifact:For pre-existing projects: explanation and demonstration of significant changes during the submission period.": "Produce and validate the required submission artifact: For pre-existing projects: explanation and demonstration of significant changes during the submission period..",
+    "artifact:When applicable: testing credentials and English translations.": "Produce and validate the required submission artifact: When applicable: testing credentials and English translations..",
+    "artifact:For AWS Builder: qualifying-use documentation and AWS-use explanation in product feedback.": "Produce and validate the required submission artifact: For AWS Builder: qualifying-use documentation and AWS-use explanation in product feedback..",
+    "artifact:For Open Source: contribution URL, project repository URL, GitHub username, and contribution explanation.": "Produce and validate the required submission artifact: For Open Source: contribution URL, project repository URL, GitHub username, and contribution explanation..",
+    "artifact:Optional friction logs and feature requests.": "Produce and validate the required submission artifact: Optional friction logs and feature requests.."
+  },
+  "data_access_status": "generated_fixture",
+  "data_access_plan": "Create and bundle the complete fictional fixture and expected ledger transitions. No real applicant records or policy accuracy are assumed. Collaborative demand and real-policy deployment remain unvalidated.",
+  "testable_claim": "For the bundled fixture, a confirmed correction appends exactly one attributed replacement record, preserves the prior assertion, invalidates exactly its dependent closure and rejects updates against a superseded version.",
+  "demo_proof": "Show the before-and-after persisted ledger, supersession edge, actor confirmation and affected node IDs. A fixture oracle checks append-only history, stale-version rejection, exact dependent invalidation and survival across reload.",
+  "minimum_demonstrable_loop": "One synthetic case with three original documents, two dependent draft answers and a preparation checklist. Inspect the source of an answer; propose a document correction; ask clarification for an ambiguous reference; confirm the exact proposal and case revision; atomically supersede the source, invalidate dependent answers while retaining unrelated facts, and export the corrected handoff receipt. Reload to prove persistence and reject an edit prepared against the previous revision. Unknown dependencies remain unresolved. Reserve testing, public video, product feedback and submission time inside the delivery plan.",
+  "mechanism_family": "Counterfactual optimization",
+  "demo_type": "Working conversational simulation with a durable provenance transaction, reload demonstration and exported handoff receipt.",
+  "external_evaluation_scores": {
+    "evidence_quality": 1.0,
+    "feasibility": 1.0,
+    "core_depth": 1.0,
+    "actionability": 1.0,
+    "differentiation": 1.0
+  },
+  "novelty_vector": {
+    "track": "Alexa+ primary track using a working entrant-built conversational simulation that completes source inspection, correction confirmation and a persistent provenance update.",
+    "user_class": "A benefits applicant and a trusted helper reconciling conflicting document versions before handing preparation work back to the applicant.",
+    "workflow": "A helper replaces a document or corrects an extracted fact, but the preparation record does not distinguish the original assertion, its replacement, who confirmed it, and which conclusions still depend on the old version.",
+    "mechanism_family": "Counterfactual optimization",
+    "data": "Generated fictional applicant, helper, document versions and assertion conflicts. | Generated rules for one explicitly fictional benefits program. | Supplied opp-006 evidence and repository description, used only as workflow inspiration.",
+    "last_mile_action": "Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.",
+    "demo_type": "Working conversational simulation with a durable provenance transaction, reload demonstration and exported handoff receipt.",
+    "embedding_distances": {}
+  },
+  "gate_results": [
+    {
+      "gate": "evidence_backed",
+      "status": "pass",
+      "reason": "At least one cited source was retrieved and verified",
+      "evidence_ids": [
+        "src-b13acf62a585",
+        "src-41e7f619fb22",
+        "src-234715149258",
+        "src-79e2639313c3"
+      ],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "required_technology_fit",
+      "status": "pass",
+      "reason": "every mandatory technology/platform has a material implementation role",
+      "evidence_ids": [],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "requirement_compliance",
+      "status": "pass",
+      "reason": "All concept-level mandatory requirements have an implementation/submission plan",
+      "evidence_ids": [],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "data_viability",
+      "status": "pass",
+      "reason": "Named data access is credible for the competition and concept",
+      "evidence_ids": [
+        "src-b13acf62a585",
+        "src-41e7f619fb22",
+        "src-234715149258",
+        "src-79e2639313c3"
+      ],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "delivery_feasible",
+      "status": "pass",
+      "reason": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.), produce the result (Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.), then validate the required submission proof.",
+      "evidence_ids": [],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "demo_fit",
+      "status": "pass",
+      "reason": "Show the before-and-after persisted ledger, supersession edge, actor confirmation and affected node IDs. A fixture oracle checks append-only history, stale-version rejection, exact dependent invalidation and survival across reload.",
+      "evidence_ids": [],
+      "validator": "deterministic"
+    },
+    {
+      "gate": "specific_track_fit",
+      "status": "pass",
+      "reason": "Declared track 'Alexa+ primary track using a working entrant-built conversational simulation that completes source inspection, correction confirmation and a persistent provenance update.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder \u2014 optional mini challenge alongside a primary track, Open Source \u2014 optional mini challenge alongside a primary track",
+      "evidence_ids": [],
+      "validator": "deterministic"
+    }
+  ]
+}

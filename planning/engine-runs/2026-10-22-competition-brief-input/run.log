@@ -1,0 +1,67 @@
+2026-10-22T19:25:06+00:00 INFO run initialized provider='codex' search_profile='balanced'
+2026-10-22T19:25:06+00:00 INFO stage started stage='provider_selection'
+2026-10-22T19:25:08+00:00 INFO stage started stage='competition_research'
+2026-10-22T19:28:28+00:00 INFO stage started stage='winner_patterns'
+2026-10-22T19:29:30+00:00 INFO stage started stage='divergent_search'
+2026-10-22T19:29:30+00:00 INFO stage started stage='opportunity_discovery' requested=24
+2026-10-22T19:33:22+00:00 INFO stage started stage='mechanism_mining' requested=24
+2026-10-22T19:36:24+00:00 INFO stage started stage='concept_crossing' requested=32
+2026-10-22T20:01:38+00:00 INFO stage started stage='mutation_round_1' requested=8
+2026-10-22T20:07:53+00:00 INFO stage started stage='mutation_round_2' requested=8
+2026-10-22T20:14:06+00:00 INFO stage started stage='hard_gates' candidates=48
+2026-10-22T20:14:06+00:00 INFO stage started stage='hard_gate_repair' candidates=48 requested=8
+2026-10-22T20:15:59+00:00 ERROR run failed stage='hard_gate_repair' error_type='KeyboardInterrupt' error=''
+Traceback (most recent call last):
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/pipeline/__init__.py", line 856, in run_analyse
+    return _run_analyse_impl(_journal=journal, **kwargs)
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/pipeline/__init__.py", line 292, in _run_analyse_impl
+    emergency, emergency_lineage = _emergency_mutation(
+                                   ~~~~~~~~~~~~~~~~~~~^
+        providers,
+        ^^^^^^^^^^
+    ...<6 lines>...
+        round_number=profile.mutation_rounds + 1,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/pipeline/__init__.py", line 710, in _emergency_mutation
+    return mutate_concepts(
+        providers.ideation_lanes[round_number % len(providers.ideation_lanes)],
+    ...<7 lines>...
+        evidence=evidence,
+    )
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/ideation/__init__.py", line 62, in mutate_concepts
+    ideas, lineage = _search_mutate_concepts(
+                     ~~~~~~~~~~~~~~~~~~~~~~~^
+        provider,
+        ^^^^^^^^^
+    ...<7 lines>...
+        evidence=evidence,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/ideation/search.py", line 305, in mutate_concepts
+    raw = provider.complete_json(template, str(payload), schema=schema)
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/providers/__init__.py", line 218, in complete_json
+    response = self._execute(system + suffix, user, schema=output_schema)
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/providers/__init__.py", line 236, in _execute
+    return self._execute_once(system, user, schema=schema)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/efi/Hackathons/Hackathon Engine/src/hackforge/providers/__init__.py", line 271, in _execute_once
+    completed = subprocess.run(
+        command,
+    ...<5 lines>...
+        check=False,
+    )
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2153, in _communicate
+    ready = selector.select(timeout)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/lib/python3.14/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+

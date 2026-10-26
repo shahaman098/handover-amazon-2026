@@ -1,0 +1,530 @@
+{
+  "candidates": [
+    {
+      "blind_id": "A",
+      "internal_id": "mut-r2-08-compare-before-resuming"
+    },
+    {
+      "blind_id": "B",
+      "internal_id": "concept-012"
+    },
+    {
+      "blind_id": "C",
+      "internal_id": "concept-026"
+    },
+    {
+      "blind_id": "D",
+      "internal_id": "mut-r1-07-evidence-handoff-ledger"
+    },
+    {
+      "blind_id": "E",
+      "internal_id": "mut-r1-04-screening-replay-bench"
+    },
+    {
+      "blind_id": "F",
+      "internal_id": "mut-r2-03-departure-interlock"
+    }
+  ],
+  "hard_gates": {
+    "A": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (On an explicit comparison request, snapshot the routine state and fork it into restart and prerequisite-check policies. Enumerate a small declared set of externally removed-item scenarios, preserving identical initial states and exogenous event IDs across each pair. Regenerate policy-dependent questions and packing actions separately. Report paired repeated-step counts, confirmation counts and unresolved prerequisites without collapsing them into an unexplained score. Recompute when the user changes one assumption.), produce the result (Trigger and persist a counterfactual comparison job from the conversation, then open its paired traces and assumption-specific outcome table.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Show a run ID, model version, initial-state digest, matched exogenous event IDs and separate policy-generated actions. Independently check outcome counts against the finite traces, rerun for identical results and exhibit a no-removal scenario where prerequisite checking adds confirmations."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Alexa+ primary track through a working entrant-built simulated experience that interprets comparison requests, asks for assumptions, executes paired replay and explains the resulting traces.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "The supplied routine analogues resume instructions; the candidate evaluates resumption policies before adoption. The prior run shares counterfactual testing but differs in user, problem and terminal action. Household demand remains unvalidated."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "Most manageable scope here if limited to a synchronous local comparison rather than job infrastructure. Ten focused hours is plausible but unproven. Generated data removes access and privacy dependencies; no hardware, paid model or MCP server is required by the supplied simulation route. The main risk is implementing a model that predetermines its preferred outcome. Fixture results establish model behavior only. Ignore contradictory boilerplate claiming Fire TV, Bee and Ring are required."
+      }
+    },
+    "B": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Execute a small trip state machine under baseline and candidate action policies using identical sampled exogenous border and service delays. Regenerate policy-dependent departure and arrival states for each policy. Calculate paired differences in departure readiness, missed return-load windows, and resource use; expose counterexample trajectories and sensitivity to uncertain parameters.), produce the result (Export a dispatcher review card identifying the proposed first intervention, its modeled tradeoffs, and the conditions that would reverse the preference. Leave dispatch authorization with the operator.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Show both policies receiving the same disturbance IDs, their independently generated state transitions, the paired outcome table, and a trace that explains a missed return-load window. Change one cutoff and visibly recompute the result. Label all inputs and outcomes as synthetic model results."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Alexa+ primary track through a functioning conversational simulation that supports stateful policy comparison, corrections, trace inspection, and an exported intervention review card.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "CargoMesh strongly overlaps the user and operational problem, but its supplied description does not establish paired disturbance replay. Retain only if the demo executes that comparison and exposes reversal conditions. Synthetic results support model-relative comparisons, not validated operational causal claims. False similarity flags for undocumented analogue details mean overlap is unestablished."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "Plausible only with a tightly bounded model. A manufactured reversal without defensible scheduling semantics would undermine the central proof. Synthetic data establish software behavior, not dispatch effectiveness. Ignore contradictory boilerplate asserting every conditional platform is material: the declared Alexa+ simulation route alone applies. Existing gate passes and perfect scores provide no implementation evidence."
+      }
+    },
+    "C": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Use a finite-state model of one authored routine: preparation acknowledged, repetition reported, rest started, rest completed, and stop requested. Evaluate temporal invariants over the recorded session horizon using a local monotonic clock. Missing confirmations produce indeterminate verdicts. For a violation, remove irrelevant events while rerunning the evaluator to obtain a subset-minimal ordered trace preserving that violation; do not claim globally shortest traces.), produce the result (Pause progression and show or speak the exact missing confirmation or incomplete rest interval, with remote actions to replay instructions, acknowledge an omitted event, or end the session.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Replay three labeled traces over the displayed session horizon: a complete sequence, an early-next-set violation, and a missing-confirmation indeterminate result. Show the live TV interaction producing the same verdicts and corrective actions. Verify that removing either necessary event from the displayed counterexample eliminates that specific violation."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Fire TV primary track: readable distance UI, remote interaction, audible prompts, and instruction replay support a focused home routine. The concept addresses sequence uncertainty within opp-002, not movement-form assessment.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "Steady overlaps the audience and broad exercise-guidance problem, but its supplied mechanism is pose tracking. Ready-Window Routine shares substantial session infrastructure and demo setup; the decisive distinction is trace-based diagnosis versus future scheduling. No supplied set of existing projects establishes the kill threshold."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "Retain only with an immediate platform smoke-test gate; abandon if deployment consumes the implementation budget. This has fewer lifecycle obligations than Ready-Window but still combines unfamiliar platform work with nontrivial evaluator semantics. Event removal can turn a violation into missing context, so minimality must be defined against a fixed rule and session horizon. Keep the claim limited to reported sequence events; physical safety and exercise effectiveness are unproven. Copied conditional technology roles and deterministic gate passes are not compliance evidence."
+      }
+    },
+    "D": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Store source documents, extracted assertions, confirmations and illustrative assessments as versioned nodes. A proposed correction identifies the superseded assertion and its supporting source. Require explicit applicant confirmation before atomically appending the replacement, attribution and supersession edge; invalidate the dependent closure and recompute in topological order. Reject cycles and stale-version writes. Preserve conflicting assertions as unresolved rather than silently choosing one. Digests establish content identity only.), produce the result (Update the local provenance record with the confirmed replacement, source version, actor, confirmation event and affected assessment IDs; export a handoff receipt showing unresolved conflicts.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Show the before-and-after persisted ledger, supersession edge, actor confirmation and affected node IDs. A fixture oracle checks append-only history, stale-version rejection, exact dependent invalidation and survival across reload."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Alexa+ primary track using a working entrant-built conversational simulation that completes source inspection, correction confirmation and a persistent provenance update.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "Approval and audit-log mechanics overlap with BOLT and the prior run, but assertion-level provenance and dependency invalidation materially change the demonstrated workflow. The supplied benefits analogue shares the applicant audience without the reconciliation mechanism. Collaborative demand remains unvalidated."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "Feasible only as a tightly bounded local simulation with prepared assertions; OCR, real benefits rules, real identity and distributed collaboration would threaten the ten-hour budget. The transactional graph semantics create more failure cases than the polished demo suggests. Simulated role selection proves workflow attribution, not authenticated identity. No real applicant data or benefits expertise is needed for the explicitly fictional scope. Existing gate passes provide no implementation evidence."
+      }
+    },
+    "E": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Version two fictional program rule sets, normalized conversation transcripts, and an independently authored expectation manifest. Replay each transcript from a clean session against baseline and candidate versions. Compare resulting question paths, conclusions, and preparation tasks against explicit expectations. Check correction equivalence, irrelevant-answer invariance, and unresolved-input handling. Record input digests, engine version, rule version, execution parameters, and ordered events in a rerunnable result bundle. Report unexpected differences with a minimal failing transcript.), produce the result (Run a selected validation suite from the conversation and export a reproducible failure bundle identifying the script change and first divergent step for correction.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Export the exact transcript and rule digests, engine version, expected-versus-actual assertions, ordered events, and minimal failing transcript. Rerunning the unchanged bundle must reproduce the same semantic results; the deliberately faulty dependency must fail before correction."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Alexa+ primary track through a functioning simulated conversational assistant that accepts a validation request, executes screening conversations, explains failures, and reruns corrected rules.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "The supplied screening analogue shares the domain but not the maintainer workflow. Replayable evidence alone does not make the prior investigation concepts equivalent. Generic conversational regression-testing novelty is not established by this payload; user demand remains unvalidated."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "Deliverable if kept to a deterministic miniature engine. Generic rule ingestion, unrestricted natural-language normalization, and globally minimal transcript discovery would exceed the credible scope. Call the result regression validation rather than formal verification: passing a finite fictional suite proves neither exhaustive coverage nor benefits accuracy. Keep any language model outside deterministic replay or record its normalized inputs."
+      }
+    },
+    "F": {
+      "evidence_backed": {
+        "passed": true,
+        "status": "pass",
+        "notes": "At least one cited source was retrieved and verified"
+      },
+      "required_technology_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "every mandatory technology/platform has a material implementation role"
+      },
+      "requirement_compliance": {
+        "passed": true,
+        "status": "pass",
+        "notes": "All concept-level mandatory requirements have an implementation/submission plan"
+      },
+      "data_viability": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Named data access is credible for the competition and concept"
+      },
+      "delivery_feasible": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Within Official submission and qualifying development period: 2026-08-31 10:15 America/Los_Angeles through 2026-10-23 12:00 America/Los_Angeles. Existing projects must be significantly updated during this period. with team constraint 1 developer plus AI coding tools; no other teammates confirmed, implement the smallest complete loop: prepare the required inputs/resources, build the core transformation (Model a small departure routine with an explicit prerequisite for the simulated lock-and-leave transition. Store confirmations with session and state-version identifiers. Unknown, contradicted, or invalidated key evidence prevents transition authorization. Evaluate the guard and commit the simulated transition against the same state version; reject intervening changes. Return the violated prerequisite and its evidence history.), produce the result (Block the simulator's lock-and-leave command, explain the missing evidence, request a fresh key-possession confirmation, and permit the simulated transition only when its guard passes.), then validate the required submission proof."
+      },
+      "demo_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Display state version, confirmation identifiers, invalidation event, guard result, rejected transition log, and subsequent successful commit. Include a direct-endpoint bypass check and a state-change-between-check-and-commit fixture."
+      },
+      "specific_track_fit": {
+        "passed": true,
+        "status": "pass",
+        "notes": "Declared track 'Alexa+ primary track through a working conversational simulation that maintains state and enforces an evidence-dependent action boundary.'; official tracks: Fire TV, Alexa+, Bee (Wearable AI), Ring, AWS Builder — optional mini challenge alongside a primary track, Open Source — optional mini challenge alongside a primary track"
+      },
+      "collision_risk_acceptable": {
+        "passed": true,
+        "notes": "BOLT overlaps strongly at the simulated permission-state-machine level. Versioned evidence invalidation and atomic guard enforcement are substantive if demonstrated, although the payload does not establish that BOLT lacks them. No supplied cluster shares user, problem, and mechanism. The simulator verifies confirmation handling, not actual key possession."
+      },
+      "independent_feasibility": {
+        "passed": true,
+        "notes": "The smallest credible delivery surface of these candidates, although no implementation evidence supports the existing gate passes. Low risk assumes a narrow conversational vocabulary or reliable structured intent handling. Physical possession and real departure prevention remain outside the proof. The Alexa+ simulation alternative removes hardware, MCP, and gated API requirements; unrelated conditional-platform boilerplate should be removed."
+      }
+    }
+  },
+  "judge_votes": [
+    {
+      "role": "technical",
+      "preferred_blind_id": "D",
+      "rationale": "D best balances substantive implementation with a complete user workflow: inspect sources, confirm a correction, persist supersession, recompute affected conclusions, and export a handoff. Its bounded fictional fixture makes data access credible and delivery plausible within ten hours. Persistent history, exact dependency invalidation, and stale-write rejection are hard to fake. E offers strong reproducibility but a less direct end-user experience; F is easier to deliver but less substantive. Preference is provisional: all candidates describe plans rather than verified working submissions. Only selected-track conditions apply; copied references to other platforms establish no additional qualification. D's main delivery and presentation risk is completing the ledger and conversational flow clearly within the available time.",
+      "scores_by_official_criteria": {
+        "Scale": "Provisional concept scores, 0–10; four criteria weighted equally.",
+        "A — Tech Implementation / Design / Potential Impact / Quality of the Idea": "8 / 7 / 5.5 / 7.5; weighted total 7.00",
+        "B — Tech Implementation / Design / Potential Impact / Quality of the Idea": "7.5 / 7 / 6.5 / 7.5; weighted total 7.13",
+        "C — Tech Implementation / Design / Potential Impact / Quality of the Idea": "7 / 7.5 / 7 / 7; weighted total 7.13",
+        "D — Tech Implementation / Design / Potential Impact / Quality of the Idea": "8.5 / 8 / 7.5 / 8; weighted total 8.00",
+        "E — Tech Implementation / Design / Potential Impact / Quality of the Idea": "8.5 / 7 / 7 / 8; weighted total 7.63",
+        "F — Tech Implementation / Design / Potential Impact / Quality of the Idea": "7.5 / 8 / 6.5 / 6.5; weighted total 7.13"
+      },
+      "hard_gate_failures": [
+        "All candidates: mandatory completion is unverified, including eligibility, registration, working source, repository access, public functioning-demo video, product feedback, and submission materials. Plans do not establish compliance; no definitive violation is demonstrated.",
+        "C: required functioning Fire OS or Vega OS demonstration remains unverified, and accepted emulator/device readiness is explicitly unresolved."
+      ],
+      "demo_failure_risk": "medium"
+    },
+    {
+      "role": "product",
+      "preferred_blind_id": "D",
+      "rationale": "D offers the strongest complete product loop: inspect a conflicting source, confirm a correction, update dependent conclusions, and export a durable handoff receipt. Its specific applicant/helper need and substantive provenance behavior outweigh A's indirect household value, B's unvalidated operational model, E's testing complexity, and F's narrower, more obvious guard. C has useful device fit but greater platform delivery risk. D's fictional fixtures credibly support a prototype, not validated benefits outcomes. Its Alexa+ simulation route qualifies in principle; unrelated track requirements do not apply. Delivery and three-minute presentation risk are medium within ten hours. Persisted history, exact dependency invalidation, and stale-write rejection are hard to fake. All candidates describe plans rather than verified completed submissions; eligibility, working source, public video, and required artifacts remain unverified.",
+      "scores_by_official_criteria": {
+        "Tech Implementation (25%; provisional /10)": "A: 8; B: 7; C: 7; D: 8; E: 8; F: 8",
+        "Design (25%; provisional /10)": "A: 6; B: 7; C: 7; D: 8; E: 6; F: 8",
+        "Potential Impact (25%; provisional /10)": "A: 4; B: 6; C: 7; D: 7; E: 6; F: 5",
+        "Quality of the Idea (25%; provisional /10)": "A: 7; B: 7; C: 7; D: 8; E: 8; F: 6"
+      },
+      "hard_gate_failures": [],
+      "demo_failure_risk": "medium"
+    },
+    {
+      "role": "sponsor",
+      "preferred_blind_id": "D",
+      "rationale": "D offers the strongest balance of substantive implementation, coherent interaction and specific user value: inspect a conflicting source, confirm its replacement, recompute affected conclusions and export a durable handoff. Its Alexa+ simulation route is permitted, and fictional fixtures credibly support prototype testing without establishing real-world benefits accuracy. Persisted supersession history, exact dependency invalidation and stale-write rejection are hard to fake. Ten-hour delivery and explaining the ledger within three minutes remain medium risks. E has strong verification depth but a less direct end-user experience; F is easier to deliver but narrower and more obvious. Scores are provisional concept assessments, not verified build scores.",
+      "scores_by_official_criteria": {
+        "Tech Implementation — 25%": "Provisional /10: A 7, B 7, C 7, D 8, E 8, F 7",
+        "Design — 25%": "Provisional /10: A 6, B 6, C 7, D 8, E 6, F 8",
+        "Potential Impact — 25%": "Provisional /10: A 5, B 6, C 7, D 7, E 6, F 5",
+        "Quality of the Idea — 25%": "Provisional /10: A 7, B 7, C 7, D 8, E 8, F 6"
+      },
+      "hard_gate_failures": [
+        "All candidates: mandatory compliance is unverified. Plans do not establish eligibility, registration, a qualifying working application, repository access and licensing, public functioning-demo video, product feedback or continued judge access. Preference is conditional on these gates passing.",
+        "C additionally lacks confirmed access to a functioning accepted Fire TV runtime. Its required platform demonstration remains unresolved."
+      ],
+      "demo_failure_risk": "medium"
+    },
+    {
+      "role": "domain",
+      "preferred_blind_id": "D",
+      "rationale": "D best balances substantive implementation, coherent interaction and a specific customer need: reconciling helper corrections without retaining conclusions based on superseded evidence. Its confirmed update and handoff receipt deliver a clearer practical result than A's household policy rehearsal or E's validation tooling. B's operational value depends on unvalidated model assumptions; C faces unresolved Fire TV setup risk; F is readily deliverable but narrower and more obvious. D's persisted history, exact dependency invalidation and stale-write rejection are hard to fake when independently replayed. Delivery and a clear demonstration within three minutes remain medium risk. Scores are provisional concept assessments, not verified build quality.",
+      "scores_by_official_criteria": {
+        "Tech Implementation": "Out of 10: A 8, B 7, C 7, D 8, E 8, F 8",
+        "Design": "Out of 10: A 6, B 7, C 7, D 8, E 6, F 8",
+        "Potential Impact": "Out of 10: A 5, B 6, C 7, D 8, E 7, F 6",
+        "Quality of the Idea": "Out of 10: A 7, B 7, C 7, D 8, E 8, F 6",
+        "Equal-weight total": "Out of 100: A 65, B 67.5, C 70, D 80, E 72.5, F 70"
+      },
+      "hard_gate_failures": [
+        "All candidates: mandatory compliance is unverified. Plans do not establish eligibility, registration, a working qualifying application, repository access, public demo video, product feedback or completed submission.",
+        "C: functioning software on accepted Fire TV hardware or emulator remains unverified. Other candidates select the permitted Alexa+ simulation route; unrelated platform requirements do not apply.",
+        "No demonstrated fatal concept-level gate failure. Fictional data is credible for the declared simulations, but does not validate real-world effectiveness. Collision assessments remain unsupported claims."
+      ],
+      "demo_failure_risk": "medium"
+    },
+    {
+      "role": "demo-risk",
+      "preferred_blind_id": "F",
+      "rationale": "F offers the clearest complete interaction and most realistic delivery within ten focused hours: invalidate a confirmation, reject departure, obtain fresh evidence, and commit once. Its Alexa+ simulation route permits this implementation without hardware or external data. Shared enforcement across conversation and direct commands, plus stale-version rejection, provides reproducible proof that is hard to fake. A and E require more explanation; B has unvalidated operational assumptions; D adds transactional and dependency complexity; C has an unresolved accepted-platform dependency. F's impact and originality are narrower, and its medium collision risk remains a concern. All candidates describe plans rather than verified submissions, so preference is conditional on completing mandatory proof and artifacts.",
+      "scores_by_official_criteria": {
+        "Tech Implementation": "Provisional /10: A 7, B 6, C 6, D 8, E 8, F 8.",
+        "Design": "Provisional /10: A 6, B 6, C 7, D 7, E 6, F 8.",
+        "Potential Impact": "Provisional /10: A 5, B 6, C 7, D 7, E 6, F 5.",
+        "Quality of the Idea": "Provisional /10: A 7, B 7, C 7, D 8, E 8, F 7.",
+        "Equal-weight total": "Projected /100: A 62.5, B 62.5, C 67.5, D 75, E 70, F 70. F is the delivery-risk preference; D leads the provisional official-criteria total."
+      },
+      "hard_gate_failures": [
+        "All candidates: mandatory compliance is unverified, including eligibility, completed registration/submission, working source repository, public functioning-demo video, product feedback, and judge access. Plans do not establish satisfaction.",
+        "C: functioning software on an accepted Fire TV device or emulator/simulator remains unverified; platform readiness is explicitly unresolved."
+      ],
+      "demo_failure_risk": "low"
+    },
+    {
+      "role": "contrarian",
+      "preferred_blind_id": "D",
+      "rationale": "D offers the strongest balance of substantive implementation and a concrete user outcome: confirmed corrections withdraw dependent conclusions and produce a durable handoff receipt. E has strong reproducibility but a less convincing adviser-facing experience; F is easiest to deliver but risks being an obvious prerequisite check. A's policy rehearsal adds household complexity, B's operational value depends on unvalidated assumptions, and C faces unresolved emulator readiness. D's persisted history, stale-write rejection and exact dependency invalidation are hard to fake. Its scope and explanation still pose medium delivery and presentation risk within ten hours. All scores are provisional concept assessments: eligibility, working software and mandatory submission artifacts remain unverified across all candidates. Only selected-track conditions apply; boilerplate claims about other technologies establish no integration.",
+      "scores_by_official_criteria": {
+        "Tech Implementation (25%; provisional /10)": "A: 7; B: 7; C: 6; D: 8; E: 8; F: 7",
+        "Design (25%; provisional /10)": "A: 5; B: 6; C: 7; D: 7; E: 6; F: 8",
+        "Potential Impact (25%; provisional /10)": "A: 4; B: 6; C: 6; D: 7; E: 6; F: 5",
+        "Quality of the Idea (25%; provisional /10)": "A: 7; B: 7; C: 7; D: 8; E: 8; F: 5",
+        "Equal-weight total (/100)": "A: 57.5; B: 65; C: 65; D: 75; E: 70; F: 62.5"
+      },
+      "hard_gate_failures": [],
+      "demo_failure_risk": "medium"
+    }
+  ],
+  "disagreements": [
+    "Judge disagreement — D: technical, product, sponsor, domain, contrarian | F: demo-risk",
+    "Inspect the official-criteria tradeoffs rather than averaging away disagreement."
+  ],
+  "pairwise": [
+    {
+      "pair": [
+        "A",
+        "B"
+      ],
+      "winner": "A",
+      "reason": "A offers a more credible implementation within ten hours: exhaustive bounded scenarios support inspectable results without B's unvalidated operational delay model. B has a clearer commercial need, but A's simpler interaction and defensible comparisons favor Tech Implementation and Design. Both propose valid Alexa+ simulation routes; mandatory submission evidence remains unverified. Demo risk: medium for both. Matched executable traces are hard to fake."
+    },
+    {
+      "pair": [
+        "A",
+        "C"
+      ],
+      "winner": "C",
+      "reason": "C better connects substantive computation to an intuitive product action: recorded events directly explain and control routine progression. This strengthens Design, Potential Impact and platform use over A's household policy-rehearsal workflow. C's accepted Fire TV runtime remains an unresolved mandatory dependency, not a demonstrated failure. Demo risk: high for C, medium for A. Event-dependent verdicts and counterexample reduction are hard to fake; submission completion is unverified for both."
+    },
+    {
+      "pair": [
+        "A",
+        "D"
+      ],
+      "winner": "D",
+      "reason": "D combines stronger customer relevance with a complete source-inspection, confirmation and persistent-update experience. Its supersession and dependency handling provide substantive Tech Implementation and Quality of the Idea beyond A's narrower rehearsal use case. Both have plausible Alexa+ simulation routes and unverified submission artifacts. Demo risk: medium for both; D's reload persistence, stale-write rejection and exact invalidation are hard to fake."
+    },
+    {
+      "pair": [
+        "A",
+        "E"
+      ],
+      "winner": "E",
+      "reason": "E's independent expectations and correction-based regression checks address a more specific ongoing maintenance need than A's policy rehearsal. Both offer substantive reproducible computation, but E more clearly turns a discovered problem into a correction-and-rerun workflow, favoring Potential Impact and Quality of the Idea. Both propose qualifying simulations; submission evidence is unverified. Demo risk: medium for both. Reproducing an independently specified failure is hard to fake."
+    },
+    {
+      "pair": [
+        "A",
+        "F"
+      ],
+      "winner": "F",
+      "reason": "F offers a more intuitive conversational experience and immediate modeled outcome than A's policy comparison. Its shared guard, evidence invalidation and atomic version check retain substantive implementation while fitting the ten-hour window more comfortably. These advantages in Design and credible build quality outweigh A's richer comparative analysis. Both propose valid simulation routes with unverified submissions. Demo risk: low for F, medium for A; bypass and stale-authorization rejection are hard to fake."
+    },
+    {
+      "pair": [
+        "B",
+        "C"
+      ],
+      "winner": "C",
+      "reason": "C's observed application events support its narrow conclusions more directly than B's synthetic delays support dispatch recommendations. C also offers stronger device-appropriate Design and a clearer computation-to-action loop; B's potential commercial value remains operationally unvalidated. C must still establish its accepted Fire TV runtime. Submission evidence is unverified for both. Demo risk: high for C, medium for B; live event changes producing reproducible verdict changes are hard to fake."
+    },
+    {
+      "pair": [
+        "B",
+        "D"
+      ],
+      "winner": "D",
+      "reason": "D's fictional fixtures can demonstrate the actual promised provenance behavior, whereas B's fictional operating model cannot establish practical intervention quality. D therefore offers a stronger combination of Tech Implementation, coherent Design and credible user value, with substantive conflict handling. Both propose acceptable Alexa+ simulations and retain unverified submission requirements. Demo risk: medium for both. Persistent supersession history and stale-write rejection are hard to fake."
+    },
+    {
+      "pair": [
+        "B",
+        "E"
+      ],
+      "winner": "E",
+      "reason": "E can establish its core value directly through independently expected failures and clean reruns; B's operational value depends more heavily on unvalidated delay assumptions. E's correction workflow and metamorphic checks favor Tech Implementation and Quality of the Idea, although adviser adoption remains unvalidated. Both propose qualifying simulations with unverified submissions. Demo risk: medium for both. An exported failure bundle reproducing against independent expectations is hard to fake."
+    },
+    {
+      "pair": [
+        "B",
+        "F"
+      ],
+      "winner": "F",
+      "reason": "F's focused interaction, enforceable modeled outcome and smaller implementation scope offer stronger Design and more credible build quality within ten hours. B addresses a potentially valuable business problem, but its intervention preference lacks operational validation. Both use permitted Alexa+ simulations; neither establishes completed submission compliance. Demo risk: low for F, medium for B. F's shared endpoint guard and rejection of intervening state changes are hard to fake."
+    },
+    {
+      "pair": [
+        "C",
+        "D"
+      ],
+      "winner": "D",
+      "reason": "D offers a comparably substantive implementation with a complete conversational handoff and fewer unresolved platform dependencies. C has strong TV-specific Design, but its runtime setup and broader interaction scope threaten delivery within ten hours. D's specific document-reconciliation need supports Potential Impact without requiring authoritative benefits decisions. Submission evidence remains unverified for both. Demo risk: medium for D, high for C; persisted attribution and dependency invalidation are hard to fake."
+    },
+    {
+      "pair": [
+        "C",
+        "E"
+      ],
+      "winner": "E",
+      "reason": "E's independent oracle, differential replay and reproducible correction loop provide stronger evidence of substantive implementation within the available window. C has more direct device-specific interaction, but its accepted runtime remains unresolved and its delivery risk is higher. E's maintenance use case supports a credible, bounded impact claim. Submission compliance is unverified for both. Demo risk: medium for E, high for C; failure reproduction after clean replay is hard to fake."
+    },
+    {
+      "pair": [
+        "C",
+        "F"
+      ],
+      "winner": "F",
+      "reason": "F provides a simpler complete experience with substantive versioned authorization logic and a more realistic ten-hour delivery scope. C offers richer Fire TV interaction and potentially useful routine guidance, but requires unconfirmed platform readiness and more presentation work. F's Design and likely implementation completeness narrowly outweigh C's device advantages. Submissions remain unverified. Demo risk: low for F, high for C; bypass-resistant state transitions are hard to fake."
+    },
+    {
+      "pair": [
+        "D",
+        "E"
+      ],
+      "winner": "D",
+      "reason": "D narrowly leads through a more complete end-user experience: inspect a source, confirm a correction, update dependent conclusions and hand off a durable receipt. E has particularly strong validation mechanics, but its adviser-facing testing workflow introduces more tooling complexity and less demonstrated interaction simplicity. Both have substantive implementation and unvalidated adoption. Qualifying simulations are planned; submission evidence is absent. Demo risk: medium for both. D's transactional history and exact invalidation are hard to fake."
+    },
+    {
+      "pair": [
+        "D",
+        "F"
+      ],
+      "winner": "D",
+      "reason": "D offers greater depth in Quality of the Idea and a more consequential, specific collaboration need while retaining a coherent confirmation-to-receipt experience. F is easier to deliver and explain, but its single-prerequisite simulation establishes narrower practical value. D's additional implementation scope is plausible if tightly bounded. Both propose permitted simulations with unverified submission compliance. Demo risk: medium for D, low for F; D's persistent dependency updates and stale-edit rejection are hard to fake."
+    },
+    {
+      "pair": [
+        "E",
+        "F"
+      ],
+      "winner": "E",
+      "reason": "E narrowly wins on Quality of the Idea and Potential Impact: independently specified regression checks address recurring script-maintenance errors, and its failure-to-correction loop demonstrates substantive work. F has clearer interaction and lower delivery risk, but its single-key guard offers a narrower product result. Both propose qualifying Alexa+ simulations; mandatory submission evidence remains unverified. Demo risk: medium for E, low for F. Independently expected failures and reproducible corrected reruns are hard to fake."
+    }
+  ],
+  "recommendation": {
+    "primary_blind_id": "D",
+    "backup_blind_id": "E",
+    "why": "Pairwise wins={'A': 1, 'C': 2, 'D': 5, 'E': 4, 'F': 3}; votes={'D': 5, 'F': 1}; official competition criteria and their parsed weights/priorities determine ordering; disagreements=2"
+  }
+}

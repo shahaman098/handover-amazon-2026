@@ -1,0 +1,10 @@
+{
+  "stage": "feasibility",
+  "batch": 3,
+  "batches": 3,
+  "candidate_ids": [
+    "mut-r2-02-ready-window-routine",
+    "concept-020",
+    "concept-026"
+  ]
+}
